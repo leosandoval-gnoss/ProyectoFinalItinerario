@@ -19,6 +19,7 @@ using Newtonsoft.Json;
 using ObraleoOntology;
 using EscritorleoOntology;
 using GenreleoOntology;
+using PremioleoOntology;
 
 internal class Program
 {
@@ -40,14 +41,15 @@ internal class Program
 
     private static void cargaMasiva(ResourceApi mResourceApi)
     {
-        int cargasAutores = 0;
-        int errorAutores = 0;
-        
-        string escritroesPath = "Carga/cargaEscritores.json";
-        string obrasPath = "Carga/cargaObras.json";
+        string escritroesPath = "Carga/cargaEscritor.json";
+        string obrasPath = "Carga/cargaLibro.json";
+        string premiosPath = "Carga/cargaPremios.csv";
 
+
+        Dictionary<string, string> diccionarioPremios = CargarPremios(premiosPath, mResourceApi);
         JArray jArray = JArray.Parse(File.ReadAllText(escritroesPath));
         JArray obrasArray = JArray.Parse(File.ReadAllText(obrasPath));
+
         foreach (JObject item in jArray.Children<JObject>())
         {
             string[] obraUris = item.Value<string>("obras").Split(" || ");
@@ -56,7 +58,8 @@ internal class Program
             string fechaValue = item["fechaNacimiento"]?.ToString();
             DateTime fechaNacimiento = DateTime.Now;
             DateTime.TryParse(fechaValue, out fechaNacimiento);
-            string[] pais = item.Value<string>("lugarNacimiento").Split(" || ");
+            string[] nacionalidad = item.Value<string>("lugarNacimiento")?.Split(" || ");
+            List<Country> nacionalidades = cargarNacionalidad(nacionalidad);
             string[] ocupaciones = item.Value<string>("ocupaciones").Split(" || ");
             string[] movimiento = item.Value<string>("movimientos").Split(" || ");
             string[] premio = item.Value<string>("premio").Split(" || ");
@@ -64,15 +67,20 @@ internal class Program
 
             Person escritor = new();
 
-            escritor.Schema_name = autor;
-            escritor.Schema_gender = genero;
-            
-            escritor.Schema_birthDate = fechaNacimiento;
-             escritor.Schema_countryOfOrigin = new List<string>(pais);
-            if(!string.IsNullOrEmpty(imagen)) escritor.Schema_image = imagen;
+            escritor.Foaf_name = autor;
+            escritor.Foaf_gender = genero;
+
+            escritor.Foaf_birthday = fechaNacimiento;
+            if (nacionalidades != null) escritor.Schema_nationality = nacionalidades;
+            if (!string.IsNullOrEmpty(imagen)) escritor.Foaf_img = imagen;
             if (!string.IsNullOrEmpty(ocupaciones[0])) escritor.Schema_occupation = new List<string>(ocupaciones);
             if (!string.IsNullOrEmpty(movimiento[0])) escritor.Schema_movement = new List<string>(movimiento);
-            if (!string.IsNullOrEmpty(premio[0])) escritor.Schema_awards = new List<string>(premio);
+            //// TODO: Crear carga premio
+            if (!string.IsNullOrEmpty(premio[0]))
+            {
+                escritor.IdsSchema_awards = AsociarPremios(premio, diccionarioPremios);
+            }
+
             if (!string.IsNullOrEmpty(obraUris[0]))
             {
                 List<string> obras = comprobarObras(obraUris, obrasArray, mResourceApi);
@@ -81,21 +89,122 @@ internal class Program
             // Cargar el recurso principal
             mResourceApi.ChangeOntology("escritorleo.owl");
             ComplexOntologyResource resorceToLoad = escritor.ToGnossApiResource(mResourceApi, null, Guid.NewGuid(), Guid.NewGuid());
-            
             mResourceApi.LoadComplexSemanticResource(resorceToLoad);
-            if (resorceToLoad.Uploaded)
+
+
+        }
+        Console.WriteLine("CARGA MASIVA TERMINADA");
+    }
+
+    #region Premios
+    private static List<string> AsociarPremios(string[] premios, Dictionary<string,string> uriPremios)
+    {
+        List<string> idsPremios = new List<string>();
+        foreach (string id in premios)
+        {
+            if(uriPremios.ContainsKey(id))
             {
-                cargasAutores++;
+                idsPremios.Add(uriPremios[id]);
+            }
+        }
+        return idsPremios;
+    }
+    private static Dictionary<string, string> CargarPremios(string archivoCSV, ResourceApi mResourceApi)
+    {
+        Dictionary<string, string> diccionarioPremios = new Dictionary<string, string>();
+        StreamReader reader = new StreamReader(archivoCSV);
+        string lineaActual = reader.ReadLine();
+        while ((lineaActual = reader.ReadLine()) != null)
+        {
+            string[] datos = lineaActual.Split(',');
+            string nombre = datos[1].Replace('"',' ').Trim();
+            string uri = getUriPremio(nombre, mResourceApi);
+            if (!string.IsNullOrEmpty(uri)) {
+                diccionarioPremios.Add(nombre, uri);
+                continue;
+            }
+            string descripcion = datos[2].Replace('"', ' ').Trim();
+
+            string identifier = Guid.NewGuid().ToString();
+            Award premio = new(identifier);
+            premio.Schema_name = nombre;
+            premio.Schema_description = new List<string>(){descripcion};
+            mResourceApi.ChangeOntology("premioleo.owl");
+            SecondaryResource premioSR = premio.ToGnossApiResource(mResourceApi, $"Award_{identifier}");
+            string mensajeFalloCarga = $"Error en la carga del Género con identificador {identifier} -> Nombre: {premio.Schema_name}";
+            try
+            {
+                mResourceApi.LoadSecondaryResource(premioSR);
+                if (!premioSR.Uploaded)
+                {
+                    mResourceApi.Log.Error(mensajeFalloCarga);
+                }
+            }
+            catch (Exception)
+            {
+                mResourceApi.Log.Error($"Exception -> {mensajeFalloCarga}");
+            }
+            diccionarioPremios.Add(nombre, getUriPremio(nombre, mResourceApi));
+        }
+        return diccionarioPremios;
+    }
+
+    private static string getUriPremio(string premioNombre, ResourceApi mResourceApi)
+    {
+        string uri = string.Empty;
+
+        //Obtención del id de la persona cargada en la comunidad
+        string pOntology = "premioleo";
+        string select = string.Empty, where = string.Empty;
+        select += $@"SELECT DISTINCT ?s";
+        where += $@" WHERE {{ ";
+        where += $@"?s ?p '{premioNombre}'.";
+        where += $@"}}";
+
+        SparqlObject resultadoQuery = mResourceApi.VirtuosoQuery(select, where, pOntology);
+        //Si está ya en el grafo, obtengo la URI
+        if (resultadoQuery != null && resultadoQuery.results != null && resultadoQuery.results.bindings != null && resultadoQuery.results.bindings.Count > 0 && resultadoQuery.results.bindings.FirstOrDefault()?.Keys.Count > 0)
+        {
+            foreach (var item in resultadoQuery.results.bindings)
+            {
+                uri = item["s"].value;
+            }
+        }
+        return uri;
+    }
+    #endregion
+
+    private static List<Country> cargarNacionalidad(string[] datos)
+    {
+        if (datos == null) return null;
+        List<Country> list = new List<Country>();
+
+        Dictionary<string, HashSet<string>> diccionario = new Dictionary<string, HashSet<string>>();
+        foreach (string dato in datos)
+        {
+            string pais = dato.Split("[")[0].Trim();
+            string continente = dato.Split("[")[1].Replace(']', ' ').Trim();
+            if (diccionario.ContainsKey(pais))
+            {
+                diccionario[pais].Add(continente);
             }
             else
             {
-                errorAutores++;
+                diccionario.Add(pais, new HashSet<string>() { continente });
             }
-            
         }
-        //Console.WriteLine("CARGA MASIVA TERMINADA");
-        Console.WriteLine($"Autores cargados correctamente: {cargasAutores}\nAutores fallidos = {errorAutores}\nObras cargados correctamente: {cargaObras}\nAutores cargados correctamente: {errorObras}\n");
+        foreach (string key in diccionario.Keys)
+        {
+            Country country = new()
+            {
+                Schema_name = key,
+                Schema_containedInPlace = diccionario[key].ToList<string>()
+            };
+            list.Add(country);
+        }
+        return list;
     }
+
     #region Obras
     private static List<string> comprobarObras(string[] nombreObras, JArray obrasArray, ResourceApi mResourceApi)
     {
@@ -151,8 +260,8 @@ internal class Program
             obra.IdsSchema_genre = generos;
         }
 
-        obra.Schema_name = titulo;
-        obra.Schema_datePublished = fecha;
+        obra.Dc_title = titulo;
+        obra.Schema_dateCreated = fecha;
         obra.Schema_inLanguage = new List<string>(idioma);
 
         // TODO: Llamada al api para la insercion de recursos
@@ -160,17 +269,11 @@ internal class Program
         ComplexOntologyResource resourceLoad = obra.ToGnossApiResource(mResourceApi, null, Guid.NewGuid(), Guid.NewGuid());
         mResourceApi.LoadComplexSemanticResource(resourceLoad);
 
-        if (resourceLoad.Uploaded)
-        {
-            cargaObras++;
-        }
-        else
-        {
-            errorObras++;
-        }
+
         return getURIObra(titulo, mResourceApi);
     }
     #endregion
+
     #region generos
     private static List<string> comprobarGeneros(string[] generos, ResourceApi mResourceApi)
     {

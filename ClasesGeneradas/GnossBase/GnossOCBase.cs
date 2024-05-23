@@ -74,6 +74,9 @@ namespace GnossBase
 			prefList.Add("xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"");
 			prefList.Add("xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"");
 			prefList.Add("xmlns:owl=\"http://www.w3.org/2002/07/owl#\"");
+			prefList.Add("xmlns:dc=\"http://purl.org/dc/elements/1.1/\"");
+			prefList.Add("xmlns:bibo=\"http://purl.org/ontology/bibo/\"");
+			prefList.Add("xmlns:foaf=\"http://xmlns.com/foaf/0.1/\"");
 
 			this.resourceID = Guid.NewGuid();
 			this.articleID = Guid.NewGuid();

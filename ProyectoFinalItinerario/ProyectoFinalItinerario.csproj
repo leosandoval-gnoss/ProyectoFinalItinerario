@@ -13,14 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClasesGeneradas\demo-gnoss-akademia-20-10.csproj" />
+    <ProjectReference Include="..\clasesGeneradas\demo-gnoss-akademia-20-10.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Carga\cargaEscritores.json">
+    <None Update="Carga\cargaEscritor.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Carga\cargaObras.json">
+    <None Update="Carga\cargaLibro.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Carga\cargaPremios.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Config\oAuth.config">

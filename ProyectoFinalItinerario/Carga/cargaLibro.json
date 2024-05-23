@@ -10,7 +10,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q163297",
     "nombreObra": "El extranjero",
     "idoma": "francés",
-    "generos": "novela filosófica || literatura del absurdo",
+    "generos": "literatura del absurdo || novela filosófica",
     "fechaPublicacion": "1942-01-01T00:00:00Z"
   },
   {
@@ -70,20 +70,6 @@
     "fechaPublicacion": "1927-01-01T00:00:00Z || 1913-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q537246",
-    "nombreObra": "Las escalas de Levante",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1996-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q540991",
-    "nombreObra": "Malone muere",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1951-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q513663",
     "nombreObra": "The Patience Stone",
     "idoma": "francés",
@@ -108,14 +94,28 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q611689",
     "nombreObra": "No es país para viejos",
     "idoma": "inglés",
-    "generos": "novela del oeste || género policíaco || suspenso",
+    "generos": "suspenso || género policíaco || novela del oeste",
     "fechaPublicacion": "2005-07-19T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q537246",
+    "nombreObra": "Las escalas de Levante",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1996-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q540991",
+    "nombreObra": "Malone muere",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1951-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q603645",
     "nombreObra": "El sindicato de policía yiddish",
     "idoma": "yidis || inglés",
-    "generos": "ucronía || ciencia ficción || ficción de detectives",
+    "generos": "ucronía || ficción de detectives || ciencia ficción",
     "fechaPublicacion": "2007-05-01T00:00:00Z"
   },
   {
@@ -241,14 +241,14 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1125903",
     "nombreObra": "El mito de Sísifo",
     "idoma": "francés",
-    "generos": "literatura filosófica || ensayo || literatura del absurdo",
+    "generos": "literatura filosófica || literatura del absurdo || ensayo",
     "fechaPublicacion": "1942-10-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1140295",
     "nombreObra": "La carretera",
     "idoma": "inglés || inglés estadounidense",
-    "generos": "ficción posapocalíptica || ficción distópica || ciencia ficción",
+    "generos": "ciencia ficción || ficción distópica || ficción posapocalíptica",
     "fechaPublicacion": "2006-09-26T00:00:00Z"
   },
   {
@@ -343,13 +343,6 @@
     "fechaPublicacion": "1938-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2756710",
-    "nombreObra": "Thais",
-    "idoma": "francés",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1890-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1367544",
     "nombreObra": "El pájaro azul",
     "idoma": "francés",
@@ -357,10 +350,17 @@
     "fechaPublicacion": ""
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2756710",
+    "nombreObra": "Thais",
+    "idoma": "francés",
+    "generos": "novela histórica",
+    "fechaPublicacion": "1890-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1618413",
     "nombreObra": "La condición humana",
     "idoma": "francés",
-    "generos": "novela por entregas || novela filosófica || novela bélica || novela histórica",
+    "generos": "novela bélica || novela filosófica || novela por entregas || novela histórica",
     "fechaPublicacion": "1933-01-01T00:00:00Z"
   },
   {
@@ -462,55 +462,6 @@
     "fechaPublicacion": "1897-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3015420",
-    "nombreObra": "Nella mano dell'angelo || Dans la main de l'Ange",
-    "idoma": "francés",
-    "generos": "literatura LGBT",
-    "fechaPublicacion": "1982-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3002429",
-    "nombreObra": "Creezy",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1969-03-27T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2992484",
-    "nombreObra": "Trading Secrets",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1998-04-02T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3020131",
-    "nombreObra": "From Goupil to Margot: a story of animals",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1925-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3028314",
-    "nombreObra": "Dingley, l'illustre écrivain",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1902-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3040860",
-    "nombreObra": "Samarcanda",
-    "idoma": "francés",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1988-03-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3036950",
-    "nombreObra": "Dora Bruder",
-    "idoma": "francés",
-    "generos": "autoficción",
-    "fechaPublicacion": "1997-04-02T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2943620",
     "nombreObra": "Ce qui était perdu",
     "idoma": "francés",
@@ -544,6 +495,13 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1970-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2992484",
+    "nombreObra": "Trading Secrets",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1998-04-02T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2938741",
@@ -595,18 +553,32 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3071991",
-    "nombreObra": "Filles de la pluie",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3015420",
+    "nombreObra": "Nella mano dell'angelo || Dans la main de l'Ange",
     "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": ""
+    "generos": "literatura LGBT",
+    "fechaPublicacion": "1982-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3067595",
-    "nombreObra": "Faux passeports",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3002429",
+    "nombreObra": "Creezy",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1969-03-27T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3020131",
+    "nombreObra": "From Goupil to Margot: a story of animals",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1925-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3028314",
+    "nombreObra": "Dingley, l'illustre écrivain",
     "idoma": "francés",
     "generos": "novela",
-    "fechaPublicacion": "1937-01-01T00:00:00Z"
+    "fechaPublicacion": "1902-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3024701",
@@ -630,6 +602,13 @@
     "fechaPublicacion": "1985-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3036950",
+    "nombreObra": "Dora Bruder",
+    "idoma": "francés",
+    "generos": "autoficción",
+    "fechaPublicacion": "1997-04-02T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3027580",
     "nombreObra": "Dios ha nacido en el exilio",
     "idoma": "francés",
@@ -637,18 +616,25 @@
     "fechaPublicacion": "1960-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3174551",
-    "nombreObra": "Jean Santeuil",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1952-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3141046",
-    "nombreObra": "Les dieux ont soif",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3040860",
+    "nombreObra": "Samarcanda",
     "idoma": "francés",
     "generos": "novela histórica",
+    "fechaPublicacion": "1988-03-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3071991",
+    "nombreObra": "Filles de la pluie",
+    "idoma": "francés",
+    "generos": "novela",
     "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3067595",
+    "nombreObra": "Faux passeports",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1937-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3094732",
@@ -726,6 +712,20 @@
     "idoma": "francés",
     "generos": "novela",
     "fechaPublicacion": "1915-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3174551",
+    "nombreObra": "Jean Santeuil",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1952-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3141046",
+    "nombreObra": "Les dieux ont soif",
+    "idoma": "francés",
+    "generos": "novela histórica",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3201601",
@@ -1004,7 +1004,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q212898",
     "nombreObra": "La montaña mágica",
     "idoma": "alemán",
-    "generos": "ficción filosófica || ficción social || novela de desarrollo || novela filosófica || novela de aprendizaje",
+    "generos": "ficción social || ficción filosófica || novela filosófica || novela de desarrollo || novela de aprendizaje",
     "fechaPublicacion": "1924-01-01T00:00:00Z"
   },
   {
@@ -1095,7 +1095,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q457289",
     "nombreObra": "Siddhartha",
     "idoma": "alemán",
-    "generos": "novela de desarrollo || novela filosófica",
+    "generos": "novela filosófica || novela de desarrollo",
     "fechaPublicacion": "1922-01-01T00:00:00Z"
   },
   {
@@ -1106,17 +1106,10 @@
     "fechaPublicacion": "1947-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q470012",
-    "nombreObra": "El pájaro de oro",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q514002",
+    "nombreObra": "Opiniones de un payaso",
     "idoma": "alemán",
-    "generos": "cuento de hadas",
-    "fechaPublicacion": "1812-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q499564",
-    "nombreObra": "Los años de perro",
-    "idoma": "alemán",
-    "generos": "novela picaresca",
+    "generos": "",
     "fechaPublicacion": "1963-01-01T00:00:00Z"
   },
   {
@@ -1125,181 +1118,6 @@
     "idoma": "alemán",
     "generos": "novela",
     "fechaPublicacion": "1904-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q528887",
-    "nombreObra": "Anekdote",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1908-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q479895",
-    "nombreObra": "Todo lo que tengo lo llevo conmigo",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "2009-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q466140",
-    "nombreObra": "A Soldier's Legacy",
-    "idoma": "alemán",
-    "generos": "ficción bélica || novela epistolar",
-    "fechaPublicacion": "1982-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q514002",
-    "nombreObra": "Opiniones de un payaso",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1963-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q727159",
-    "nombreObra": "Fiasco",
-    "idoma": "alemán || polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1986-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q765047",
-    "nombreObra": "The Rat",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1986-01-01T00:00:00Z || 1985-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q692988",
-    "nombreObra": "Tonio Kröger",
-    "idoma": "alemán",
-    "generos": "novela autobiográfica || novela corta",
-    "fechaPublicacion": "1903-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q655773",
-    "nombreObra": "Billar a las nueve y media",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1959-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q741606",
-    "nombreObra": "The Weavers",
-    "idoma": "alemán",
-    "generos": "Drama social",
-    "fechaPublicacion": "1892-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q814762",
-    "nombreObra": "Beim Propheten",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1904-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q828296",
-    "nombreObra": "La muerte en Venecia",
-    "idoma": "alemán",
-    "generos": "novela corta",
-    "fechaPublicacion": "1912-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q831640",
-    "nombreObra": "Reflections of an Unpolitical Man",
-    "idoma": "alemán",
-    "generos": "ensayo",
-    "fechaPublicacion": "1918-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q785720",
-    "nombreObra": "And where were you, Adam?",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1951-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q820589",
-    "nombreObra": "Reports on the Nation's Disposition",
-    "idoma": "alemán",
-    "generos": "sátira",
-    "fechaPublicacion": "1975-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q836841",
-    "nombreObra": "El juego de los abalorios",
-    "idoma": "alemán",
-    "generos": "novela filosófica || ficción editorial || novela de desarrollo",
-    "fechaPublicacion": "1943-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q860577",
-    "nombreObra": "burro",
-    "idoma": "alemán",
-    "generos": "novela filosófica || novela de desarrollo",
-    "fechaPublicacion": "1919-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q841315",
-    "nombreObra": "El honor perdido de Katharina Blum",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q899334",
-    "nombreObra": "El tambor de hojalata",
-    "idoma": "alemán",
-    "generos": "realismo mágico || autoficción || Künstlerroman || novela de desarrollo || novela social || metaficción || novela histórica || novela de época || novela picaresca",
-    "fechaPublicacion": "1959-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q944956",
-    "nombreObra": "La engañada",
-    "idoma": "alemán",
-    "generos": "novela corta",
-    "fechaPublicacion": "1953-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q992161",
-    "nombreObra": "That man is my brother",
-    "idoma": "alemán",
-    "generos": "ensayo",
-    "fechaPublicacion": "1939-03-25T00:00:00Z || 1939-03-03T00:00:00Z || 1938-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1109439",
-    "nombreObra": "Royal Highness",
-    "idoma": "alemán",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1909-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1117151",
-    "nombreObra": "Die Lösung der Judenfrage",
-    "idoma": "alemán",
-    "generos": "ensayo",
-    "fechaPublicacion": "1907-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1121205",
-    "nombreObra": "El armario",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1899-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1046358",
-    "nombreObra": "El tren llegó puntual",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1949-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q968741",
-    "nombreObra": "The Children of the Dead",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1995-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1211666",
@@ -1393,6 +1211,83 @@
     "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1215655",
+    "nombreObra": "The Rats",
+    "idoma": "alemán",
+    "generos": "tragicomedia",
+    "fechaPublicacion": "1911-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1460598",
+    "nombreObra": "A paso de cangrejo",
+    "idoma": "alemán",
+    "generos": "novela histórica",
+    "fechaPublicacion": "2002-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1500229",
+    "nombreObra": "The History of Rome",
+    "idoma": "alemán",
+    "generos": "libro de historia",
+    "fechaPublicacion": "1854-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1502926",
+    "nombreObra": "Narciso y Goldmundo",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1930-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1345516",
+    "nombreObra": "Desilusión",
+    "idoma": "alemán",
+    "generos": "novela corta",
+    "fechaPublicacion": "1898-01-01T00:00:00Z || 1896-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1418623",
+    "nombreObra": "Fiorenza",
+    "idoma": "alemán",
+    "generos": "drama",
+    "fechaPublicacion": "1906-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q470012",
+    "nombreObra": "El pájaro de oro",
+    "idoma": "alemán",
+    "generos": "cuento de hadas",
+    "fechaPublicacion": "1812-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q499564",
+    "nombreObra": "Los años de perro",
+    "idoma": "alemán",
+    "generos": "novela picaresca",
+    "fechaPublicacion": "1963-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q528887",
+    "nombreObra": "Anekdote",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1908-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q479895",
+    "nombreObra": "Todo lo que tengo lo llevo conmigo",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "2009-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q466140",
+    "nombreObra": "A Soldier's Legacy",
+    "idoma": "alemán",
+    "generos": "ficción bélica || novela epistolar",
+    "fechaPublicacion": "1982-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1213520",
     "nombreObra": "Die Hungernden",
     "idoma": "alemán",
@@ -1449,46 +1344,95 @@
     "fechaPublicacion": "1966-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1215655",
-    "nombreObra": "The Rats",
-    "idoma": "alemán",
-    "generos": "tragicomedia",
-    "fechaPublicacion": "1911-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1460598",
-    "nombreObra": "A paso de cangrejo",
-    "idoma": "alemán",
-    "generos": "novela histórica",
-    "fechaPublicacion": "2002-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1500229",
-    "nombreObra": "The History of Rome",
-    "idoma": "alemán",
-    "generos": "libro de historia",
-    "fechaPublicacion": "1854-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1502926",
-    "nombreObra": "Narciso y Goldmundo",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1930-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1345516",
-    "nombreObra": "Desilusión",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q828296",
+    "nombreObra": "La muerte en Venecia",
     "idoma": "alemán",
     "generos": "novela corta",
-    "fechaPublicacion": "1898-01-01T00:00:00Z || 1896-01-01T00:00:00Z"
+    "fechaPublicacion": "1912-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1418623",
-    "nombreObra": "Fiorenza",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q831640",
+    "nombreObra": "Reflections of an Unpolitical Man",
     "idoma": "alemán",
-    "generos": "drama",
-    "fechaPublicacion": "1906-01-01T00:00:00Z"
+    "generos": "ensayo",
+    "fechaPublicacion": "1918-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q785720",
+    "nombreObra": "And where were you, Adam?",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1951-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q820589",
+    "nombreObra": "Reports on the Nation's Disposition",
+    "idoma": "alemán",
+    "generos": "sátira",
+    "fechaPublicacion": "1975-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q836841",
+    "nombreObra": "El juego de los abalorios",
+    "idoma": "alemán",
+    "generos": "ficción editorial || novela de desarrollo || novela filosófica",
+    "fechaPublicacion": "1943-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q727159",
+    "nombreObra": "Fiasco",
+    "idoma": "alemán || polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1986-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q765047",
+    "nombreObra": "The Rat",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1986-01-01T00:00:00Z || 1985-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q692988",
+    "nombreObra": "Tonio Kröger",
+    "idoma": "alemán",
+    "generos": "novela autobiográfica || novela corta",
+    "fechaPublicacion": "1903-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q655773",
+    "nombreObra": "Billar a las nueve y media",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1959-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q741606",
+    "nombreObra": "The Weavers",
+    "idoma": "alemán",
+    "generos": "Drama social",
+    "fechaPublicacion": "1892-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q860577",
+    "nombreObra": "burro",
+    "idoma": "alemán",
+    "generos": "novela de desarrollo || novela filosófica",
+    "fechaPublicacion": "1919-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q841315",
+    "nombreObra": "El honor perdido de Katharina Blum",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q899334",
+    "nombreObra": "El tambor de hojalata",
+    "idoma": "alemán",
+    "generos": "realismo mágico || novela de desarrollo || autoficción || novela social || metaficción || novela histórica || novela de época || Künstlerroman || novela picaresca",
+    "fechaPublicacion": "1959-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1344748",
@@ -1533,20 +1477,6 @@
     "fechaPublicacion": "1919-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1628694",
-    "nombreObra": "Disorder and Early Sorrow",
-    "idoma": "alemán",
-    "generos": "novela corta",
-    "fechaPublicacion": "1925-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1615525",
-    "nombreObra": "La bestia del corazón",
-    "idoma": "alemán",
-    "generos": "novela de aprendizaje",
-    "fechaPublicacion": "1994-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1551030",
     "nombreObra": "Retrato de grupo con señora",
     "idoma": "alemán",
@@ -1561,6 +1491,13 @@
     "fechaPublicacion": "1954-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q814762",
+    "nombreObra": "Beim Propheten",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1904-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1591130",
     "nombreObra": "Domestic Disturbance",
     "idoma": "alemán",
@@ -1568,11 +1505,53 @@
     "fechaPublicacion": "1969-02-24T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1659490",
-    "nombreObra": "Valley of Thundering Hooves",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q944956",
+    "nombreObra": "La engañada",
+    "idoma": "alemán",
+    "generos": "novela corta",
+    "fechaPublicacion": "1953-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q992161",
+    "nombreObra": "That man is my brother",
+    "idoma": "alemán",
+    "generos": "ensayo",
+    "fechaPublicacion": "1939-03-25T00:00:00Z || 1939-03-03T00:00:00Z || 1938-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1109439",
+    "nombreObra": "Royal Highness",
+    "idoma": "alemán",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1909-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1117151",
+    "nombreObra": "Die Lösung der Judenfrage",
+    "idoma": "alemán",
+    "generos": "ensayo",
+    "fechaPublicacion": "1907-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1121205",
+    "nombreObra": "El armario",
     "idoma": "alemán",
     "generos": "",
-    "fechaPublicacion": "1957-01-01T00:00:00Z"
+    "fechaPublicacion": "1899-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1046358",
+    "nombreObra": "El tren llegó puntual",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1949-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q968741",
+    "nombreObra": "The Children of the Dead",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1995-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1758876",
@@ -1587,6 +1566,13 @@
     "idoma": "alemán",
     "generos": "novela de aprendizaje",
     "fechaPublicacion": "1961-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1628694",
+    "nombreObra": "Disorder and Early Sorrow",
+    "idoma": "alemán",
+    "generos": "novela corta",
+    "fechaPublicacion": "1925-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1734684",
@@ -1610,6 +1596,27 @@
     "fechaPublicacion": "1930-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1615525",
+    "nombreObra": "La bestia del corazón",
+    "idoma": "alemán",
+    "generos": "novela de aprendizaje",
+    "fechaPublicacion": "1994-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1659490",
+    "nombreObra": "Valley of Thundering Hooves",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1957-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1672825",
+    "nombreObra": "Diario irlandés",
+    "idoma": "alemán",
+    "generos": "libro de viaje",
+    "fechaPublicacion": "1957-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1814783",
     "nombreObra": "Leiden und Größe Richard Wagners",
     "idoma": "alemán",
@@ -1622,20 +1629,6 @@
     "idoma": "alemán",
     "generos": "novela corta",
     "fechaPublicacion": "1903-01-01T00:00:00Z || 1900-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1672825",
-    "nombreObra": "Diario irlandés",
-    "idoma": "alemán",
-    "generos": "libro de viaje",
-    "fechaPublicacion": "1957-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1788149",
-    "nombreObra": "Cruz sin amor",
-    "idoma": "alemán",
-    "generos": "novela",
-    "fechaPublicacion": "2002-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2257036",
@@ -1680,13 +1673,6 @@
     "fechaPublicacion": "1922-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2568065",
-    "nombreObra": "The Fight between Jappe and the Do Escobar",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1914-01-01T00:00:00Z || 1911-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1988700",
     "nombreObra": "En tierras bajas",
     "idoma": "alemán",
@@ -1694,11 +1680,32 @@
     "fechaPublicacion": "1982-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1788149",
+    "nombreObra": "Cruz sin amor",
+    "idoma": "alemán",
+    "generos": "novela",
+    "fechaPublicacion": "2002-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1985103",
     "nombreObra": "Christmas Not Just Once a Year",
     "idoma": "alemán",
     "generos": "sátira",
     "fechaPublicacion": "1952-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2568065",
+    "nombreObra": "The Fight between Jappe and the Do Escobar",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1914-01-01T00:00:00Z || 1911-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2596046",
+    "nombreObra": "Sangre de Welsungos",
+    "idoma": "alemán",
+    "generos": "novela corta",
+    "fechaPublicacion": "1921-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2547981",
@@ -1715,20 +1722,6 @@
     "fechaPublicacion": "1981-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2595103",
-    "nombreObra": "A Sorrow Beyond Dreams",
-    "idoma": "alemán",
-    "generos": "",
-    "fechaPublicacion": "1972-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2596046",
-    "nombreObra": "Sangre de Welsungos",
-    "idoma": "alemán",
-    "generos": "novela corta",
-    "fechaPublicacion": "1921-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2651382",
     "nombreObra": "When War Broke Out",
     "idoma": "alemán",
@@ -1741,6 +1734,13 @@
     "idoma": "alemán",
     "generos": "",
     "fechaPublicacion": "1962-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2595103",
+    "nombreObra": "A Sorrow Beyond Dreams",
+    "idoma": "alemán",
+    "generos": "",
+    "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q463060",
@@ -1841,13 +1841,6 @@
     "fechaPublicacion": "1966-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1131904",
-    "nombreObra": "The Turn",
-    "idoma": "italiano",
-    "generos": "novela",
-    "fechaPublicacion": "1902-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q691007",
     "nombreObra": "Corpus Inscriptionum Latinarum",
     "idoma": "latín",
@@ -1874,6 +1867,20 @@
     "idoma": "italiano",
     "generos": "tragedia",
     "fechaPublicacion": "1922-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1131904",
+    "nombreObra": "The Turn",
+    "idoma": "italiano",
+    "generos": "novela",
+    "fechaPublicacion": "1902-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2559737",
+    "nombreObra": "El castillo blanco",
+    "idoma": "turco",
+    "generos": "novela",
+    "fechaPublicacion": "1985-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q650297",
@@ -1918,6 +1925,118 @@
     "fechaPublicacion": "2017-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2704227",
+    "nombreObra": "Muerte accidental de un anarquista",
+    "idoma": "italiano",
+    "generos": "comedia",
+    "fechaPublicacion": "1970-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1246586",
+    "nombreObra": "Misterio bufo",
+    "idoma": "italiano",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1238893",
+    "nombreObra": "Canne al vento",
+    "idoma": "italiano",
+    "generos": "",
+    "fechaPublicacion": "1913-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1478870",
+    "nombreObra": "Nieve",
+    "idoma": "turco",
+    "generos": "metaficción",
+    "fechaPublicacion": "2002-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1632269",
+    "nombreObra": "Il fu Mattia Pascal",
+    "idoma": "italiano",
+    "generos": "novela",
+    "fechaPublicacion": "2001-01-01T00:00:00Z || 1904-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1754072",
+    "nombreObra": "Novels for a year",
+    "idoma": "italiano",
+    "generos": "",
+    "fechaPublicacion": "1922-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2526261",
+    "nombreObra": "The Mother",
+    "idoma": "italiano",
+    "generos": "novela",
+    "fechaPublicacion": "1920-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2528617",
+    "nombreObra": "Elias Portolu",
+    "idoma": "italiano",
+    "generos": "novela",
+    "fechaPublicacion": "1900-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1196725",
+    "nombreObra": "La fiebre del heno",
+    "idoma": "polaco",
+    "generos": "ficción filosófica || Ciencia ficción dura || ficción de detectives || ciencia ficción",
+    "fechaPublicacion": "1976-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1197675",
+    "nombreObra": "El Invencible",
+    "idoma": "polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1964-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1198633",
+    "nombreObra": "Congreso de futurología",
+    "idoma": "polaco",
+    "generos": "humor negro || ciencia ficción",
+    "fechaPublicacion": "1971-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1283523",
+    "nombreObra": "Edén",
+    "idoma": "polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1958-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1452666",
+    "nombreObra": "Diarios de las Estrellas",
+    "idoma": "polaco",
+    "generos": "antología || ciencia ficción",
+    "fechaPublicacion": "1971-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1536250",
+    "nombreObra": "Golem XIV",
+    "idoma": "polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1981-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1214098",
+    "nombreObra": "Los cruzados",
+    "idoma": "polaco",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1900-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q763199",
+    "nombreObra": "La ciudad y los perros",
+    "idoma": "español",
+    "generos": "literatura de ficción",
+    "fechaPublicacion": "1963-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q820591",
     "nombreObra": "Relato de un náufrago",
     "idoma": "español",
@@ -1930,20 +2049,6 @@
     "idoma": "español",
     "generos": "misterio || suspenso",
     "fechaPublicacion": "1981-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q763199",
-    "nombreObra": "La ciudad y los perros",
-    "idoma": "español",
-    "generos": "literatura de ficción",
-    "fechaPublicacion": "1963-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2559737",
-    "nombreObra": "El castillo blanco",
-    "idoma": "turco",
-    "generos": "novela",
-    "fechaPublicacion": "1985-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q950335",
@@ -1981,46 +2086,39 @@
     "fechaPublicacion": "1950-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2704227",
-    "nombreObra": "Muerte accidental de un anarquista",
-    "idoma": "italiano",
-    "generos": "comedia",
-    "fechaPublicacion": "1970-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2389340",
+    "nombreObra": "El señor Wolodyjowski",
+    "idoma": "polaco",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1888-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1632269",
-    "nombreObra": "Il fu Mattia Pascal",
-    "idoma": "italiano",
-    "generos": "novela",
-    "fechaPublicacion": "2001-01-01T00:00:00Z || 1904-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1754072",
-    "nombreObra": "Novels for a year",
-    "idoma": "italiano",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1736866",
+    "nombreObra": "Un gato en un piso vacío",
+    "idoma": "polaco",
     "generos": "",
-    "fechaPublicacion": "1922-01-01T00:00:00Z"
+    "fechaPublicacion": "1991-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2526261",
-    "nombreObra": "The Mother",
-    "idoma": "italiano",
-    "generos": "novela",
-    "fechaPublicacion": "1920-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2499707",
+    "nombreObra": "El hombre de Marte",
+    "idoma": "polaco",
+    "generos": "ficción satírica || ficción filosófica || ciencia ficción social || ciencia ficción",
+    "fechaPublicacion": "1946-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2528617",
-    "nombreObra": "Elias Portolu",
-    "idoma": "italiano",
-    "generos": "novela",
-    "fechaPublicacion": "1900-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2661598",
+    "nombreObra": "La Nube de Magallanes",
+    "idoma": "polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1955-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1478870",
-    "nombreObra": "Nieve",
-    "idoma": "turco",
-    "generos": "metaficción",
-    "fechaPublicacion": "2002-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2635106",
+    "nombreObra": "El diluvio",
+    "idoma": "polaco",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1886-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q133740",
@@ -2065,13 +2163,6 @@
     "fechaPublicacion": "2010-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q215983",
-    "nombreObra": "Las uvas de la ira",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1939-04-14T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q214430",
     "nombreObra": "Like a Rolling Stone",
     "idoma": "inglés",
@@ -2079,10 +2170,17 @@
     "fechaPublicacion": "1965-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q215983",
+    "nombreObra": "Las uvas de la ira",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1939-04-14T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q217211",
     "nombreObra": "Highway 61 Revisited",
     "idoma": "inglés",
-    "generos": "rock blues || folk rock || rock",
+    "generos": "folk rock || rock blues || rock",
     "fechaPublicacion": "1965-08-30T00:00:00Z"
   },
   {
@@ -2091,13 +2189,6 @@
     "idoma": "inglés",
     "generos": "novela bélica",
     "fechaPublicacion": "1929-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q260860",
-    "nombreObra": "Songs from a room",
-    "idoma": "inglés",
-    "generos": "música folclórica",
-    "fechaPublicacion": "1969-04-07T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q260205",
@@ -2112,6 +2203,13 @@
     "idoma": "inglés",
     "generos": "novela del oeste",
     "fechaPublicacion": "1992-05-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q260860",
+    "nombreObra": "Songs from a room",
+    "idoma": "inglés",
+    "generos": "música folclórica",
+    "fechaPublicacion": "1969-04-07T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q268106",
@@ -2145,7 +2243,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q331903",
     "nombreObra": "Various Positions",
     "idoma": "inglés",
-    "generos": "soft rock || folk rock",
+    "generos": "folk rock || soft rock",
     "fechaPublicacion": "1984-12-11T00:00:00Z"
   },
   {
@@ -2154,6 +2252,13 @@
     "idoma": "inglés",
     "generos": "literatura histórica || novela",
     "fechaPublicacion": "1951-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q457977",
+    "nombreObra": "De ratones y hombres",
+    "idoma": "inglés || Inglés del sur de EE.UU.",
+    "generos": "novela corta || povest",
+    "fechaPublicacion": "1937-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q429806",
@@ -2168,13 +2273,6 @@
     "idoma": "inglés",
     "generos": "música folclórica",
     "fechaPublicacion": "2012-01-31T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q457977",
-    "nombreObra": "De ratones y hombres",
-    "idoma": "inglés || Inglés del sur de EE.UU.",
-    "generos": "povest || novela corta",
-    "fechaPublicacion": "1937-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q428339",
@@ -2233,17 +2331,10 @@
     "fechaPublicacion": "1985-02-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q581485",
-    "nombreObra": "El libro de las ilusiones",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "2002-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q598116",
     "nombreObra": "Blonde on Blonde",
     "idoma": "inglés",
-    "generos": "rock blues || folk rock",
+    "generos": "folk rock || rock blues",
     "fechaPublicacion": "1966-06-20T00:00:00Z"
   },
   {
@@ -2252,118 +2343,6 @@
     "idoma": "inglés",
     "generos": "poesía",
     "fechaPublicacion": "1922-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1246586",
-    "nombreObra": "Misterio bufo",
-    "idoma": "italiano",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2499707",
-    "nombreObra": "El hombre de Marte",
-    "idoma": "polaco",
-    "generos": "ficción satírica || ciencia ficción social || ficción filosófica || ciencia ficción",
-    "fechaPublicacion": "1946-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1238893",
-    "nombreObra": "Canne al vento",
-    "idoma": "italiano",
-    "generos": "",
-    "fechaPublicacion": "1913-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2389340",
-    "nombreObra": "El señor Wolodyjowski",
-    "idoma": "polaco",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1888-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1736866",
-    "nombreObra": "Un gato en un piso vacío",
-    "idoma": "polaco",
-    "generos": "",
-    "fechaPublicacion": "1991-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2661598",
-    "nombreObra": "La Nube de Magallanes",
-    "idoma": "polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1955-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1196725",
-    "nombreObra": "La fiebre del heno",
-    "idoma": "polaco",
-    "generos": "Ciencia ficción dura || ficción filosófica || ficción de detectives || ciencia ficción",
-    "fechaPublicacion": "1976-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1197675",
-    "nombreObra": "El Invencible",
-    "idoma": "polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1964-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2635106",
-    "nombreObra": "El diluvio",
-    "idoma": "polaco",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1886-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1198633",
-    "nombreObra": "Congreso de futurología",
-    "idoma": "polaco",
-    "generos": "humor negro || ciencia ficción",
-    "fechaPublicacion": "1971-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1283523",
-    "nombreObra": "Edén",
-    "idoma": "polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1958-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1452666",
-    "nombreObra": "Diarios de las Estrellas",
-    "idoma": "polaco",
-    "generos": "antología || ciencia ficción",
-    "fechaPublicacion": "1971-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1214098",
-    "nombreObra": "Los cruzados",
-    "idoma": "polaco",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1900-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1771746",
-    "nombreObra": "Las aventuras de Augie March",
-    "idoma": "español",
-    "generos": "novela picaresca",
-    "fechaPublicacion": "1953-09-18T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2030203",
-    "nombreObra": "La muerte de Artemio Cruz",
-    "idoma": "español || español mexicano",
-    "generos": "novela",
-    "fechaPublicacion": "1962-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1536250",
-    "nombreObra": "Golem XIV",
-    "idoma": "polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1981-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2181982",
@@ -2380,6 +2359,34 @@
     "fechaPublicacion": "1981-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1771746",
+    "nombreObra": "Las aventuras de Augie March",
+    "idoma": "español",
+    "generos": "novela picaresca",
+    "fechaPublicacion": "1953-09-18T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2030203",
+    "nombreObra": "La muerte de Artemio Cruz",
+    "idoma": "español || español mexicano",
+    "generos": "novela",
+    "fechaPublicacion": "1962-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2563052",
+    "nombreObra": "La invención de Morel",
+    "idoma": "español",
+    "generos": "fantasía || ciencia ficción",
+    "fechaPublicacion": "1940-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q581485",
+    "nombreObra": "El libro de las ilusiones",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "2002-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1324713",
     "nombreObra": "El camino",
     "idoma": "español",
@@ -2394,18 +2401,53 @@
     "fechaPublicacion": "1953-09-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2563052",
-    "nombreObra": "La invención de Morel",
-    "idoma": "español",
-    "generos": "fantasía || ciencia ficción",
-    "fechaPublicacion": "1940-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1427966",
     "nombreObra": "Pedro Páramo",
     "idoma": "español",
     "generos": "realismo mágico",
-    "fechaPublicacion": "1990-01-01T00:00:00Z || 1967-01-07T00:00:00Z || 1955-01-01T00:00:00Z"
+    "fechaPublicacion": "1990-01-01T00:00:00Z || 1967-01-07T00:00:00Z || 1956-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q951587",
+    "nombreObra": "Nunca me abandones",
+    "idoma": "inglés",
+    "generos": "ficción distópica || ucronía || ciencia ficción",
+    "fechaPublicacion": "2005-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q849701",
+    "nombreObra": "Al este del Edén",
+    "idoma": "inglés || inglés estadounidense",
+    "generos": "saga familiar",
+    "fechaPublicacion": "1952-09-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q859996",
+    "nombreObra": "The Cleft",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "2007-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q955587",
+    "nombreObra": "Mrs. Warren's Profession",
+    "idoma": "inglés",
+    "generos": "obra de tesis",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q969635",
+    "nombreObra": "Hallelujah",
+    "idoma": "inglés",
+    "generos": "folk rock || góspel",
+    "fechaPublicacion": "1984-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q622400",
+    "nombreObra": "Todo se desmorona",
+    "idoma": "inglés",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1968-01-01T00:00:00Z || 1958-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1519372",
@@ -2415,11 +2457,11 @@
     "fechaPublicacion": "1969-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q622400",
-    "nombreObra": "Todo se desmorona",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q971767",
+    "nombreObra": "Beloved",
     "idoma": "inglés",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1958-01-01T00:00:00Z || 1968-01-01T00:00:00Z"
+    "generos": "realismo mágico || ficción histórica",
+    "fechaPublicacion": "1987-09-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q637200",
@@ -2429,11 +2471,88 @@
     "fechaPublicacion": "1913-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1069956",
+    "nombreObra": "Ojos azules",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1970-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1761217",
+    "nombreObra": "Después de la caída",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1107000",
+    "nombreObra": "Babbitt",
+    "idoma": "inglés",
+    "generos": "sátira",
+    "fechaPublicacion": "1922-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1736876",
+    "nombreObra": "Cat's Eye",
+    "idoma": "inglés",
+    "generos": "novela",
+    "fechaPublicacion": "1988-09-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1817920",
+    "nombreObra": "Un hombre en la oscuridad",
+    "idoma": "inglés",
+    "generos": "ficción distópica",
+    "fechaPublicacion": "2008-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1101819",
+    "nombreObra": "The Second Jungle Book",
+    "idoma": "inglés",
+    "generos": "novela infantil",
+    "fechaPublicacion": "1895-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1770069",
+    "nombreObra": "Watt",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1953-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q708490",
+    "nombreObra": "Cuando fuimos huérfanos",
+    "idoma": "inglés",
+    "generos": "novela policíaca",
+    "fechaPublicacion": "2000-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q640529",
     "nombreObra": "Blowin' in the Wind",
     "idoma": "inglés",
     "generos": "música folk",
     "fechaPublicacion": "1962-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1045464",
+    "nombreObra": "La edad de la inocencia",
+    "idoma": "inglés",
+    "generos": "novela romántica",
+    "fechaPublicacion": "1920-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1821899",
+    "nombreObra": "Leviatán",
+    "idoma": "inglés",
+    "generos": "hard boiled || ficción de detectives || novela policíaca",
+    "fechaPublicacion": "1992-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1897870",
+    "nombreObra": "El color púrpura",
+    "idoma": "inglés",
+    "generos": "novela feminista || novela epistolar",
+    "fechaPublicacion": "1982-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q735319",
@@ -2464,11 +2583,11 @@
     "fechaPublicacion": "2008-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q708490",
-    "nombreObra": "Cuando fuimos huérfanos",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q784986",
+    "nombreObra": "El cuaderno dorado",
     "idoma": "inglés",
-    "generos": "novela policíaca",
-    "fechaPublicacion": "2000-01-01T00:00:00Z"
+    "generos": "metaficción",
+    "fechaPublicacion": "1962-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q761474",
@@ -2476,6 +2595,13 @@
     "idoma": "inglés",
     "generos": "",
     "fechaPublicacion": "1983-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2032398",
+    "nombreObra": "Oryx y Crake",
+    "idoma": "inglés",
+    "generos": "ficción distópica || ficción especulativa || ficción posapocalíptica || ciencia ficción",
+    "fechaPublicacion": "2003-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q820862",
@@ -2492,137 +2618,11 @@
     "fechaPublicacion": "1989-05-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q784986",
-    "nombreObra": "El cuaderno dorado",
-    "idoma": "inglés",
-    "generos": "metaficción",
-    "fechaPublicacion": "1962-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q849701",
-    "nombreObra": "Al este del Edén",
-    "idoma": "inglés || inglés estadounidense",
-    "generos": "saga familiar",
-    "fechaPublicacion": "1952-09-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q951587",
-    "nombreObra": "Nunca me abandones",
-    "idoma": "inglés",
-    "generos": "ficción distópica || ucronía || ciencia ficción",
-    "fechaPublicacion": "2005-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q859996",
-    "nombreObra": "The Cleft",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "2007-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q955587",
-    "nombreObra": "Mrs. Warren's Profession",
-    "idoma": "inglés",
-    "generos": "obra de tesis",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q969635",
-    "nombreObra": "Hallelujah",
-    "idoma": "inglés",
-    "generos": "folk rock || góspel",
-    "fechaPublicacion": "1984-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q971767",
-    "nombreObra": "Beloved",
-    "idoma": "inglés",
-    "generos": "realismo mágico || ficción histórica",
-    "fechaPublicacion": "1987-09-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1069956",
-    "nombreObra": "Ojos azules",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1970-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1045464",
-    "nombreObra": "La edad de la inocencia",
-    "idoma": "inglés",
-    "generos": "novela romántica",
-    "fechaPublicacion": "1920-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1107000",
-    "nombreObra": "Babbitt",
-    "idoma": "inglés",
-    "generos": "sátira",
-    "fechaPublicacion": "1922-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1101819",
-    "nombreObra": "The Second Jungle Book",
-    "idoma": "inglés",
-    "generos": "novela infantil",
-    "fechaPublicacion": "1895-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1761217",
-    "nombreObra": "Después de la caída",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1736876",
-    "nombreObra": "Cat's Eye",
-    "idoma": "inglés",
-    "generos": "novela",
-    "fechaPublicacion": "1988-09-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1817920",
-    "nombreObra": "Un hombre en la oscuridad",
-    "idoma": "inglés",
-    "generos": "ficción distópica",
-    "fechaPublicacion": "2008-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1821899",
-    "nombreObra": "Leviatán",
-    "idoma": "inglés",
-    "generos": "hard boiled || novela policíaca || ficción de detectives",
-    "fechaPublicacion": "1992-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1770069",
-    "nombreObra": "Watt",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1953-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1897870",
-    "nombreObra": "El color púrpura",
-    "idoma": "inglés",
-    "generos": "novela feminista || novela epistolar",
-    "fechaPublicacion": "1982-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1978467",
     "nombreObra": "Todos los hombres del rey (novela)",
     "idoma": "inglés",
-    "generos": "novela en clave || novela política",
+    "generos": "novela política || novela en clave",
     "fechaPublicacion": "1946-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2032398",
-    "nombreObra": "Oryx y Crake",
-    "idoma": "inglés",
-    "generos": "ficción especulativa || ficción distópica || ficción posapocalíptica || ciencia ficción",
-    "fechaPublicacion": "2003-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2219624",
@@ -2646,32 +2646,11 @@
     "fechaPublicacion": "1935-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2468448",
-    "nombreObra": "Cuatro cuartetos",
-    "idoma": "inglés",
-    "generos": "poesía",
-    "fechaPublicacion": "1943-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1169820",
-    "nombreObra": "Imperial Woman",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1956-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2520460",
     "nombreObra": "A Electra le sienta bien el luto",
     "idoma": "inglés",
     "generos": "teatro",
     "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2539975",
-    "nombreObra": "The Birthday Party",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1958-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2705230",
@@ -2681,18 +2660,102 @@
     "fechaPublicacion": "2000-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1167621",
-    "nombreObra": "The Echo Maker",
-    "idoma": "inglés",
-    "generos": "novela",
-    "fechaPublicacion": "2006-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2701408",
     "nombreObra": "Beautiful Losers",
     "idoma": "inglés",
     "generos": "novela",
     "fechaPublicacion": "1966-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2468448",
+    "nombreObra": "Cuatro cuartetos",
+    "idoma": "inglés",
+    "generos": "poesía",
+    "fechaPublicacion": "1943-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2539975",
+    "nombreObra": "The Birthday Party",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1958-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218321",
+    "nombreObra": "El Secreto",
+    "idoma": "inglés",
+    "generos": "ficción psicológica || Dark academia || criptohistoria || novela de campus",
+    "fechaPublicacion": "1992-09-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218608",
+    "nombreObra": "La buena tierra",
+    "idoma": "inglés",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1931-03-02T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218620",
+    "nombreObra": "Santa Juana (obra de teatro)",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1924-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1247723",
+    "nombreObra": "Just So Stories",
+    "idoma": "inglés",
+    "generos": "literatura infantil",
+    "fechaPublicacion": "1902-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1541914",
+    "nombreObra": "El cuento de la criada",
+    "idoma": "inglés",
+    "generos": "Neomalthusianismo || ficción histórica || ficción distópica || ciencia ficción || feminismo",
+    "fechaPublicacion": "1985-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1419321",
+    "nombreObra": "Si...",
+    "idoma": "inglés",
+    "generos": "poesía lírica",
+    "fechaPublicacion": "1910-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1533003",
+    "nombreObra": "A Mercy",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "2008-11-11T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1424503",
+    "nombreObra": "Herzog",
+    "idoma": "inglés",
+    "generos": "existencialismo",
+    "fechaPublicacion": "1964-09-21T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1291142",
+    "nombreObra": "Illness as Metaphor",
+    "idoma": "inglés",
+    "generos": "tratado",
+    "fechaPublicacion": "1978-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2279794",
+    "nombreObra": "La caza del carnero salvaje",
+    "idoma": "japonés",
+    "generos": "realismo mágico",
+    "fechaPublicacion": "1982-10-15T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1544119",
+    "nombreObra": "Mientras agonizo",
+    "idoma": "inglés || inglés estadounidense",
+    "generos": "literatura modernista",
+    "fechaPublicacion": "1930-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1183443",
@@ -2702,18 +2765,18 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1198405",
-    "nombreObra": "El asesino ciego",
-    "idoma": "inglés",
-    "generos": "novela histórica",
-    "fechaPublicacion": "2000-09-02T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1206332",
-    "nombreObra": "Germany and the Germans",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1169820",
+    "nombreObra": "Imperial Woman",
     "idoma": "inglés",
     "generos": "",
-    "fechaPublicacion": "1945-10-01T00:00:00Z"
+    "fechaPublicacion": "1956-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1167621",
+    "nombreObra": "The Echo Maker",
+    "idoma": "inglés",
+    "generos": "novela",
+    "fechaPublicacion": "2006-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1171426",
@@ -2737,18 +2800,18 @@
     "fechaPublicacion": "1984-04-12T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1198405",
+    "nombreObra": "El asesino ciego",
+    "idoma": "inglés",
+    "generos": "novela histórica",
+    "fechaPublicacion": "2000-09-02T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1215203",
     "nombreObra": "La trilogía de Nueva York",
     "idoma": "inglés",
     "generos": "misterio",
     "fechaPublicacion": "1987-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218321",
-    "nombreObra": "El Secreto",
-    "idoma": "inglés",
-    "generos": "ficción psicológica || Dark academia || criptohistoria || novela de campus",
-    "fechaPublicacion": "1992-09-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1216210",
@@ -2758,67 +2821,18 @@
     "fechaPublicacion": "2005-06-03T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218608",
-    "nombreObra": "La buena tierra",
-    "idoma": "inglés",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1931-03-02T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1424503",
-    "nombreObra": "Herzog",
-    "idoma": "inglés",
-    "generos": "existencialismo",
-    "fechaPublicacion": "1964-09-21T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1291142",
-    "nombreObra": "Illness as Metaphor",
-    "idoma": "inglés",
-    "generos": "tratado",
-    "fechaPublicacion": "1978-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1218620",
-    "nombreObra": "Santa Juana (obra de teatro)",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1206332",
+    "nombreObra": "Germany and the Germans",
     "idoma": "inglés",
     "generos": "",
-    "fechaPublicacion": "1924-01-01T00:00:00Z"
+    "fechaPublicacion": "1945-10-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1247723",
-    "nombreObra": "Just So Stories",
-    "idoma": "inglés",
-    "generos": "literatura infantil",
-    "fechaPublicacion": "1902-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1419321",
-    "nombreObra": "Si...",
-    "idoma": "inglés",
-    "generos": "poesía lírica",
-    "fechaPublicacion": "1910-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1533003",
-    "nombreObra": "A Mercy",
-    "idoma": "inglés",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3021244",
+    "nombreObra": "One, No one and One Hundred Thousand",
+    "idoma": "italiano",
     "generos": "",
-    "fechaPublicacion": "2008-11-11T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1541914",
-    "nombreObra": "El cuento de la criada",
-    "idoma": "inglés",
-    "generos": "ficción histórica || Neomalthusianismo || ficción distópica || ciencia ficción || feminismo",
-    "fechaPublicacion": "1985-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1544119",
-    "nombreObra": "Mientras agonizo",
-    "idoma": "inglés || inglés estadounidense",
-    "generos": "literatura modernista",
-    "fechaPublicacion": "1930-01-01T00:00:00Z"
+    "fechaPublicacion": "1926-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2436699",
@@ -2833,6 +2847,104 @@
     "idoma": "portugués",
     "generos": "realismo mágico",
     "fechaPublicacion": "1965-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1968701",
+    "nombreObra": "El grito silencioso",
+    "idoma": "japonés",
+    "generos": "novela",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2378189",
+    "nombreObra": "Una cuestión personal",
+    "idoma": "japonés",
+    "generos": "",
+    "fechaPublicacion": "1964-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2896338",
+    "nombreObra": "The Peasants",
+    "idoma": "polaco",
+    "generos": "novela de costumbres",
+    "fechaPublicacion": "1904-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2985729",
+    "nombreObra": "Memorias encontradas en una bañera",
+    "idoma": "polaco",
+    "generos": "ficción satírica || ficción política || ficción distópica || ciencia ficción social",
+    "fechaPublicacion": "1961-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2981270",
+    "nombreObra": "In Desert and Wilderness",
+    "idoma": "polaco",
+    "generos": "ficción para jóvenes",
+    "fechaPublicacion": "1911-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3212510",
+    "nombreObra": "La colmena",
+    "idoma": "español",
+    "generos": "novela",
+    "fechaPublicacion": "1951-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2833629",
+    "nombreObra": "El túnel",
+    "idoma": "español",
+    "generos": "ficción psicológica || novela existencialista",
+    "fechaPublicacion": "1948-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3076257",
+    "nombreObra": "Abaddón el exterminador",
+    "idoma": "español",
+    "generos": "novela",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3211073",
+    "nombreObra": "La nieve del almirante",
+    "idoma": "español",
+    "generos": "novela",
+    "fechaPublicacion": "1986-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2655348",
+    "nombreObra": "Fate of a Man",
+    "idoma": "ruso",
+    "generos": "",
+    "fechaPublicacion": "1956-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1757435",
+    "nombreObra": "La república del vino",
+    "idoma": "chino",
+    "generos": "sátira",
+    "fechaPublicacion": "1992-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1757697",
+    "nombreObra": "La vida y la muerte me están desgastando",
+    "idoma": "chino",
+    "generos": "novela",
+    "fechaPublicacion": "2006-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1766205",
+    "nombreObra": "Sorgo rojo",
+    "idoma": "chino",
+    "generos": "realismo mágico",
+    "fechaPublicacion": "1986-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1760054",
+    "nombreObra": "La montaña del alma",
+    "idoma": "chino",
+    "generos": "ficción posmoderna",
+    "fechaPublicacion": "1990-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q826428",
@@ -2870,132 +2982,6 @@
     "fechaPublicacion": "1952-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1968701",
-    "nombreObra": "El grito silencioso",
-    "idoma": "japonés",
-    "generos": "novela",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2378189",
-    "nombreObra": "Una cuestión personal",
-    "idoma": "japonés",
-    "generos": "",
-    "fechaPublicacion": "1964-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2279794",
-    "nombreObra": "La caza del carnero salvaje",
-    "idoma": "japonés",
-    "generos": "realismo mágico",
-    "fechaPublicacion": "1982-10-15T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2655348",
-    "nombreObra": "Fate of a Man",
-    "idoma": "ruso",
-    "generos": "",
-    "fechaPublicacion": "1956-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2896338",
-    "nombreObra": "The Peasants",
-    "idoma": "polaco",
-    "generos": "novela de costumbres",
-    "fechaPublicacion": "1904-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2985729",
-    "nombreObra": "Memorias encontradas en una bañera",
-    "idoma": "polaco",
-    "generos": "ficción satírica || ficción distópica || ficción política || ciencia ficción social",
-    "fechaPublicacion": "1961-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2981270",
-    "nombreObra": "In Desert and Wilderness",
-    "idoma": "polaco",
-    "generos": "ficción para jóvenes",
-    "fechaPublicacion": "1911-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3021244",
-    "nombreObra": "One, No one and One Hundred Thousand",
-    "idoma": "italiano",
-    "generos": "",
-    "fechaPublicacion": "1926-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3212510",
-    "nombreObra": "La colmena",
-    "idoma": "español",
-    "generos": "novela",
-    "fechaPublicacion": "1951-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2833629",
-    "nombreObra": "El túnel",
-    "idoma": "español",
-    "generos": "ficción psicológica || novela existencialista",
-    "fechaPublicacion": "1948-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q208971",
-    "nombreObra": "1Q84",
-    "idoma": "japonés",
-    "generos": "ucronía || ciencia ficción",
-    "fechaPublicacion": "2010-04-16T00:00:00Z || 2009-05-29T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1757435",
-    "nombreObra": "La república del vino",
-    "idoma": "chino",
-    "generos": "sátira",
-    "fechaPublicacion": "1992-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1757697",
-    "nombreObra": "La vida y la muerte me están desgastando",
-    "idoma": "chino",
-    "generos": "novela",
-    "fechaPublicacion": "2006-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1766205",
-    "nombreObra": "Sorgo rojo",
-    "idoma": "chino",
-    "generos": "realismo mágico",
-    "fechaPublicacion": "1986-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1760054",
-    "nombreObra": "La montaña del alma",
-    "idoma": "chino",
-    "generos": "ficción posmoderna",
-    "fechaPublicacion": "1990-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3076257",
-    "nombreObra": "Abaddón el exterminador",
-    "idoma": "español",
-    "generos": "novela",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3211073",
-    "nombreObra": "La nieve del almirante",
-    "idoma": "español",
-    "generos": "novela",
-    "fechaPublicacion": "1986-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q579744",
-    "nombreObra": "Kafka en la orilla",
-    "idoma": "japonés",
-    "generos": "realismo mágico || ficción posmoderna || metaficción || fantasía",
-    "fechaPublicacion": "2002-09-12T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1093483",
     "nombreObra": "Pabellón del cáncer",
     "idoma": "ruso",
@@ -3003,32 +2989,11 @@
     "fechaPublicacion": "1967-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q588686",
-    "nombreObra": "La casa de las bellas durmientes",
-    "idoma": "japonés",
-    "generos": "novela corta",
-    "fechaPublicacion": "1961-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q763764",
-    "nombreObra": "El puente de tres arcos",
-    "idoma": "albanés",
-    "generos": "",
-    "fechaPublicacion": "1978-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1088001",
-    "nombreObra": "Crónica de piedra",
-    "idoma": "albanés",
-    "generos": "",
-    "fechaPublicacion": "1971-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1215713",
-    "nombreObra": "El viaje del elefante",
-    "idoma": "portugués",
-    "generos": "novela",
-    "fechaPublicacion": "2008-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1823273",
+    "nombreObra": "Luz de agosto",
+    "idoma": "inglés estadounidense",
+    "generos": "gótico sureño",
+    "fechaPublicacion": "1932-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1647139",
@@ -3036,27 +3001,6 @@
     "idoma": "albanés",
     "generos": "novela política || novela distópica",
     "fechaPublicacion": "1981-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1216446",
-    "nombreObra": "Ensayo sobre la lucidez",
-    "idoma": "portugués",
-    "generos": "ensayo",
-    "fechaPublicacion": "2004-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1351463",
-    "nombreObra": "El Evangelio según Jesucristo",
-    "idoma": "portugués",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1991-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1823273",
-    "nombreObra": "Luz de agosto",
-    "idoma": "inglés estadounidense",
-    "generos": "gótico sureño",
-    "fechaPublicacion": "1932-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2280031",
@@ -3080,39 +3024,81 @@
     "fechaPublicacion": "1996-02-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q726254",
-    "nombreObra": "El maravilloso viaje de Nils Holgersson",
-    "idoma": "sueco",
-    "generos": "fantasía",
-    "fechaPublicacion": "1906-01-01T00:00:00Z || 1907-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1215713",
+    "nombreObra": "El viaje del elefante",
+    "idoma": "portugués",
+    "generos": "novela",
+    "fechaPublicacion": "2008-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q206870",
-    "nombreObra": "El doctor Zhivago",
-    "idoma": "ruso",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "1957-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1216446",
+    "nombreObra": "Ensayo sobre la lucidez",
+    "idoma": "portugués",
+    "generos": "ensayo",
+    "fechaPublicacion": "2004-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q75840",
-    "nombreObra": "El Don apacible",
-    "idoma": "ruso",
-    "generos": "épico",
-    "fechaPublicacion": "1928-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1351463",
+    "nombreObra": "El Evangelio según Jesucristo",
+    "idoma": "portugués",
+    "generos": "novela histórica",
+    "fechaPublicacion": "1991-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q369944",
-    "nombreObra": "Archipiélago Gulag",
-    "idoma": "ruso",
-    "generos": "ensayo || autobiografía",
-    "fechaPublicacion": "1973-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1088001",
+    "nombreObra": "Crónica de piedra",
+    "idoma": "albanés",
+    "generos": "",
+    "fechaPublicacion": "1971-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q599585",
-    "nombreObra": "El primer círculo",
-    "idoma": "ruso",
-    "generos": "novela autobiográfica",
-    "fechaPublicacion": "1968-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q763764",
+    "nombreObra": "El puente de tres arcos",
+    "idoma": "albanés",
+    "generos": "",
+    "fechaPublicacion": "1978-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q208971",
+    "nombreObra": "1Q84",
+    "idoma": "japonés",
+    "generos": "ucronía || ciencia ficción",
+    "fechaPublicacion": "2010-04-16T00:00:00Z || 2009-05-29T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q579744",
+    "nombreObra": "Kafka en la orilla",
+    "idoma": "japonés",
+    "generos": "ficción posmoderna || realismo mágico || metaficción || fantasía",
+    "fechaPublicacion": "2002-09-12T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1583509",
+    "nombreObra": "De qué hablo cuando hablo de correr",
+    "idoma": "japonés",
+    "generos": "memorias || ensayo || autobiografía",
+    "fechaPublicacion": "2007-10-15T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q588686",
+    "nombreObra": "La casa de las bellas durmientes",
+    "idoma": "japonés",
+    "generos": "novela corta",
+    "fechaPublicacion": "1961-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1376060",
+    "nombreObra": "País de nieve",
+    "idoma": "japonés",
+    "generos": "literatura contemporánea",
+    "fechaPublicacion": "1935-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1171416",
+    "nombreObra": "The Short Happy Life of Francis Macomber",
+    "idoma": "inglés estadounidense",
+    "generos": "",
+    "fechaPublicacion": "1936-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1062365",
@@ -3122,25 +3108,11 @@
     "fechaPublicacion": "1890-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3163324",
-    "nombreObra": "Jazz",
-    "idoma": "inglés",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1992-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q1755757",
     "nombreObra": "Kristin Lavransdatter",
     "idoma": "noruego",
     "generos": "",
     "fechaPublicacion": "1920-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3120849",
-    "nombreObra": "Gunga Din",
-    "idoma": "inglés",
-    "generos": "poesía",
-    "fechaPublicacion": "1892-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2266122",
@@ -3150,11 +3122,18 @@
     "fechaPublicacion": "1917-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2837516",
-    "nombreObra": "Todos eran mis hijos",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q726254",
+    "nombreObra": "El maravilloso viaje de Nils Holgersson",
+    "idoma": "sueco",
+    "generos": "fantasía",
+    "fechaPublicacion": "1907-01-01T00:00:00Z || 1906-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3163324",
+    "nombreObra": "Jazz",
     "idoma": "inglés",
-    "generos": "obra de teatro",
-    "fechaPublicacion": "1947-01-01T00:00:00Z"
+    "generos": "novela histórica",
+    "fechaPublicacion": "1992-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2916798",
@@ -3171,25 +3150,32 @@
     "fechaPublicacion": "1990-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q785109",
-    "nombreObra": "Melancolía de la resistencia",
-    "idoma": "húngaro",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3120849",
+    "nombreObra": "Gunga Din",
+    "idoma": "inglés",
+    "generos": "poesía",
+    "fechaPublicacion": "1892-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q917055",
+    "nombreObra": "La insoportable levedad del ser",
+    "idoma": "checo",
+    "generos": "ficción filosófica",
+    "fechaPublicacion": "1984-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q966732",
+    "nombreObra": "La vida está en otra parte",
+    "idoma": "checo",
     "generos": "novela",
-    "fechaPublicacion": "1989-01-01T00:00:00Z"
+    "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q655701",
-    "nombreObra": "Sin destino",
-    "idoma": "húngaro",
-    "generos": "autobiografía",
-    "fechaPublicacion": "1975-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q135515",
-    "nombreObra": "El ruido y la furia",
-    "idoma": "inglés estadounidense",
-    "generos": "gótico sureño",
-    "fechaPublicacion": "1930-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2837516",
+    "nombreObra": "Todos eran mis hijos",
+    "idoma": "inglés",
+    "generos": "obra de teatro",
+    "fechaPublicacion": "1947-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q2529488",
@@ -3213,32 +3199,116 @@
     "fechaPublicacion": "1990-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q966732",
-    "nombreObra": "La vida está en otra parte",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q75840",
+    "nombreObra": "El Don apacible",
+    "idoma": "ruso",
+    "generos": "épico",
+    "fechaPublicacion": "1928-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q369944",
+    "nombreObra": "Archipiélago Gulag",
+    "idoma": "ruso",
+    "generos": "ensayo || autobiografía",
+    "fechaPublicacion": "1973-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q206870",
+    "nombreObra": "El doctor Zhivago",
+    "idoma": "ruso",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "1957-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q599585",
+    "nombreObra": "El primer círculo",
+    "idoma": "ruso",
+    "generos": "novela autobiográfica",
+    "fechaPublicacion": "1968-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1156065",
+    "nombreObra": "La broma",
     "idoma": "checo",
+    "generos": "ficción satírica",
+    "fechaPublicacion": "1967-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q785109",
+    "nombreObra": "Melancolía de la resistencia",
+    "idoma": "húngaro",
     "generos": "novela",
+    "fechaPublicacion": "1989-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q655701",
+    "nombreObra": "Sin destino",
+    "idoma": "húngaro",
+    "generos": "autobiografía",
+    "fechaPublicacion": "1975-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1214791",
+    "nombreObra": "Memorias de una superviviente",
+    "idoma": "inglés británico",
+    "generos": "novela",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1559656",
+    "nombreObra": "La leyenda de Gösta Berling",
+    "idoma": "sueco",
+    "generos": "",
+    "fechaPublicacion": "1891-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1247865",
+    "nombreObra": "Un puente sobre el Drina",
+    "idoma": "serbocroata || serbio",
+    "generos": "ficción histórica",
+    "fechaPublicacion": "2001-01-01T00:00:00Z || 1945-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1249456",
+    "nombreObra": "El lugar maldito",
+    "idoma": "serbocroata || serbio",
+    "generos": "",
+    "fechaPublicacion": "1989-01-01T00:00:00Z || 1954-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q824338",
+    "nombreObra": "Crónica de Travnik",
+    "idoma": "serbio || serbocroata",
+    "generos": "novela histórica",
+    "fechaPublicacion": "1988-01-01T00:00:00Z || 1945-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1315145",
+    "nombreObra": "Tango satánico",
+    "idoma": "húngaro",
+    "generos": "",
+    "fechaPublicacion": "1985-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2358930",
+    "nombreObra": "Gitanjali",
+    "idoma": "bangla",
+    "generos": "",
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1583509",
-    "nombreObra": "De qué hablo cuando hablo de correr",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3109211",
+    "nombreObra": "El rumor de la montaña",
     "idoma": "japonés",
-    "generos": "memorias || ensayo || autobiografía",
-    "fechaPublicacion": "2007-10-15T00:00:00Z"
+    "generos": "novela",
+    "fechaPublicacion": "1954-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1376060",
-    "nombreObra": "País de nieve",
-    "idoma": "japonés",
-    "generos": "literatura contemporánea",
-    "fechaPublicacion": "1935-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q917055",
-    "nombreObra": "La insoportable levedad del ser",
-    "idoma": "checo",
-    "generos": "ficción filosófica",
-    "fechaPublicacion": "1984-01-01T00:00:00Z"
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q135515",
+    "nombreObra": "El ruido y la furia",
+    "idoma": "inglés estadounidense",
+    "generos": "gótico sureño",
+    "fechaPublicacion": "1930-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q520057",
@@ -3248,11 +3318,81 @@
     "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q589868",
+    "nombreObra": "Kim",
+    "idoma": "inglés británico",
+    "generos": "novela de espionaje",
+    "fechaPublicacion": "1901-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q478463",
+    "nombreObra": "Jerusalén",
+    "idoma": "sueco",
+    "generos": "",
+    "fechaPublicacion": "1902-01-01T00:00:00Z || 1901-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3222573",
+    "nombreObra": "Le Désert de l'amour",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1925-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3220828",
+    "nombreObra": "Le Carcajou",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1996-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3220907",
+    "nombreObra": "Le Cavalier du Baïkal",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "2000-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3212674",
     "nombreObra": "La Sagouine",
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1971-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3221396",
+    "nombreObra": "Le Chèvrefeuille, le Purgatoire, le Chapitre XIII",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1924-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q339908",
+    "nombreObra": "Miramar",
+    "idoma": "árabe",
+    "generos": "novela",
+    "fechaPublicacion": "1967-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q510850",
+    "nombreObra": "El callejón de los milagros",
+    "idoma": "árabe",
+    "generos": "novela",
+    "fechaPublicacion": "1947-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2275911",
+    "nombreObra": "Hijos de nuestro barrio",
+    "idoma": "árabe",
+    "generos": "novela",
+    "fechaPublicacion": "1967-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2358616",
+    "nombreObra": "The Thief and the Dogs",
+    "idoma": "árabe",
+    "generos": "novela",
+    "fechaPublicacion": "1961-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3213611",
@@ -3267,13 +3407,6 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1930-03-31T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3222573",
-    "nombreObra": "Le Désert de l'amour",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1925-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3222877",
@@ -3325,18 +3458,18 @@
     "fechaPublicacion": "1951-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3220828",
-    "nombreObra": "Le Carcajou",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227069",
+    "nombreObra": "Le Seigneur du fleuve",
     "idoma": "francés",
     "generos": "novela",
-    "fechaPublicacion": "1996-01-01T00:00:00Z"
+    "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3220907",
-    "nombreObra": "Le Cavalier du Baïkal",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227264",
+    "nombreObra": "Le Soleil des morts",
     "idoma": "francés",
     "generos": "novela",
-    "fechaPublicacion": "2000-01-01T00:00:00Z"
+    "fechaPublicacion": "1998-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3224344",
@@ -3344,6 +3477,13 @@
     "idoma": "francés",
     "generos": "novela",
     "fechaPublicacion": "1922-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227206",
+    "nombreObra": "Le Singe égal du ciel",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3223545",
@@ -3360,18 +3500,53 @@
     "fechaPublicacion": "1913-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3221396",
-    "nombreObra": "Le Chèvrefeuille, le Purgatoire, le Chapitre XIII",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1924-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3225981",
     "nombreObra": "El Proceso Verbal",
     "idoma": "francés || inglés",
     "generos": "",
     "fechaPublicacion": "1963-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3230588",
+    "nombreObra": "Los años",
+    "idoma": "francés",
+    "generos": "autobiografía",
+    "fechaPublicacion": "2008-02-07T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3230679",
+    "nombreObra": "Los armarios vacíos",
+    "idoma": "francés",
+    "generos": "novela autobiográfica",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227269",
+    "nombreObra": "The Scortas' Sun",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "2004-08-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227454",
+    "nombreObra": "Le Supplice de Phèdre",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1929-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3228512",
+    "nombreObra": "Le premier accroc coûte deux cents francs",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1944-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227125",
+    "nombreObra": "El sermón sobre la caída de Roma",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "2012-08-22T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3230563",
@@ -3409,74 +3584,11 @@
     "fechaPublicacion": "1962-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227069",
-    "nombreObra": "Le Seigneur du fleuve",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1972-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227264",
-    "nombreObra": "Le Soleil des morts",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1998-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3228186",
     "nombreObra": "Le Vitriol de Lune",
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1921-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3230588",
-    "nombreObra": "Los años",
-    "idoma": "francés",
-    "generos": "autobiografía",
-    "fechaPublicacion": "2008-02-07T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3230679",
-    "nombreObra": "Los armarios vacíos",
-    "idoma": "francés",
-    "generos": "novela autobiográfica",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227206",
-    "nombreObra": "Le Singe égal du ciel",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1972-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227269",
-    "nombreObra": "The Scortas' Sun",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "2004-08-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227454",
-    "nombreObra": "Le Supplice de Phèdre",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1929-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3228512",
-    "nombreObra": "Le premier accroc coûte deux cents francs",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1944-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3227125",
-    "nombreObra": "El sermón sobre la caída de Roma",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "2012-08-22T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3231429",
@@ -3507,11 +3619,25 @@
     "fechaPublicacion": "1952-12-24T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3321503",
+    "nombreObra": "Monsieur des Lourdines",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1911-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3234356",
     "nombreObra": "The Roving Shadows",
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "2002-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3357963",
+    "nombreObra": "Oublier Palerme",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1966-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3232799",
@@ -3540,6 +3666,13 @@
     "idoma": "francés",
     "generos": "novela",
     "fechaPublicacion": "2009-04-24T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3347264",
+    "nombreObra": "Nêne",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1920-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3281067",
@@ -3589,6 +3722,13 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1953-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3320014",
+    "nombreObra": "Mon village à l'heure allemande",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "1945-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3232400",
@@ -3675,20 +3815,6 @@
     "fechaPublicacion": "2010-08-15T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3321503",
-    "nombreObra": "Monsieur des Lourdines",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1911-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3357963",
-    "nombreObra": "Oublier Palerme",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1966-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3389151",
     "nombreObra": "Pirates du Rhône",
     "idoma": "francés",
@@ -3722,13 +3848,6 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "2001-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3347264",
-    "nombreObra": "Nêne",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1920-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3411741",
@@ -3773,13 +3892,6 @@
     "fechaPublicacion": "1907-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3320014",
-    "nombreObra": "Mon village à l'heure allemande",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "1945-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3472153",
     "nombreObra": "Sang et Lumières",
     "idoma": "francés",
@@ -3792,6 +3904,13 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1942-01-31T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2829012",
+    "nombreObra": "Akhenaten, Dweller in Truth",
+    "idoma": "árabe",
+    "generos": "novela policíaca",
+    "fechaPublicacion": "1985-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3411417",
@@ -3808,67 +3927,11 @@
     "fechaPublicacion": "1925-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1171416",
-    "nombreObra": "The Short Happy Life of Francis Macomber",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2943868",
+    "nombreObra": "It Can't Happen Here",
     "idoma": "inglés estadounidense",
-    "generos": "",
-    "fechaPublicacion": "1936-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q589868",
-    "nombreObra": "Kim",
-    "idoma": "inglés británico",
-    "generos": "novela de espionaje",
-    "fechaPublicacion": "1901-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q824338",
-    "nombreObra": "Crónica de Travnik",
-    "idoma": "serbio || serbocroata",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1988-01-01T00:00:00Z || 1945-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2358930",
-    "nombreObra": "Gitanjali",
-    "idoma": "bangla",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q478463",
-    "nombreObra": "Jerusalén",
-    "idoma": "sueco",
-    "generos": "",
-    "fechaPublicacion": "1902-01-01T00:00:00Z || 1901-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1132408",
-    "nombreObra": "El coronel no tiene quien le escriba",
-    "idoma": "español latinoamericano",
-    "generos": "",
-    "fechaPublicacion": "1961-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q339908",
-    "nombreObra": "Miramar",
-    "idoma": "árabe",
-    "generos": "novela",
-    "fechaPublicacion": "1967-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q510850",
-    "nombreObra": "El callejón de los milagros",
-    "idoma": "árabe",
-    "generos": "novela",
-    "fechaPublicacion": "1947-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1156065",
-    "nombreObra": "La broma",
-    "idoma": "checo",
-    "generos": "ficción satírica",
-    "fechaPublicacion": "1967-01-01T00:00:00Z"
+    "generos": "novela distópica || novela política || novela de ciencia ficción",
+    "fechaPublicacion": "1935-10-21T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3056735",
@@ -3878,74 +3941,11 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1559656",
-    "nombreObra": "La leyenda de Gösta Berling",
-    "idoma": "sueco",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1132408",
+    "nombreObra": "El coronel no tiene quien le escriba",
+    "idoma": "español latinoamericano",
     "generos": "",
-    "fechaPublicacion": "1891-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2275911",
-    "nombreObra": "Hijos de nuestro barrio",
-    "idoma": "árabe",
-    "generos": "novela",
-    "fechaPublicacion": "1967-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2358616",
-    "nombreObra": "The Thief and the Dogs",
-    "idoma": "árabe",
-    "generos": "novela",
     "fechaPublicacion": "1961-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1214791",
-    "nombreObra": "Memorias de una superviviente",
-    "idoma": "inglés británico",
-    "generos": "novela",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1247865",
-    "nombreObra": "Un puente sobre el Drina",
-    "idoma": "serbocroata || serbio",
-    "generos": "ficción histórica",
-    "fechaPublicacion": "2001-01-01T00:00:00Z || 1945-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2829012",
-    "nombreObra": "Akhenaten, Dweller in Truth",
-    "idoma": "árabe",
-    "generos": "novela policíaca",
-    "fechaPublicacion": "1985-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3109211",
-    "nombreObra": "El rumor de la montaña",
-    "idoma": "japonés",
-    "generos": "novela",
-    "fechaPublicacion": "1954-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1249456",
-    "nombreObra": "El lugar maldito",
-    "idoma": "serbocroata || serbio",
-    "generos": "",
-    "fechaPublicacion": "1989-01-01T00:00:00Z || 1954-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q1315145",
-    "nombreObra": "Tango satánico",
-    "idoma": "húngaro",
-    "generos": "",
-    "fechaPublicacion": "1985-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q2943868",
-    "nombreObra": "It Can't Happen Here",
-    "idoma": "inglés estadounidense",
-    "generos": "novela distópica || novela política || novela de ciencia ficción",
-    "fechaPublicacion": "1935-10-21T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3436977",
@@ -4312,6 +4312,27 @@
     "fechaPublicacion": "1983-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3648111",
+    "nombreObra": "Una rosa para Emily",
+    "idoma": "inglés || inglés estadounidense",
+    "generos": "",
+    "fechaPublicacion": "1930-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3797477",
+    "nombreObra": "En un estado libre",
+    "idoma": "inglés",
+    "generos": "novela",
+    "fechaPublicacion": "1971-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3793576",
+    "nombreObra": "El conservador",
+    "idoma": "inglés",
+    "generos": "novela",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3614534",
     "nombreObra": "Love",
     "idoma": "inglés",
@@ -4352,27 +4373,6 @@
     "idoma": "inglés",
     "generos": "novela",
     "fechaPublicacion": "1993-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3648111",
-    "nombreObra": "Una rosa para Emily",
-    "idoma": "inglés || inglés estadounidense",
-    "generos": "",
-    "fechaPublicacion": "1930-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3797477",
-    "nombreObra": "En un estado libre",
-    "idoma": "inglés",
-    "generos": "novela",
-    "fechaPublicacion": "1971-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q3793576",
-    "nombreObra": "El conservador",
-    "idoma": "inglés",
-    "generos": "novela",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q3998819",
@@ -4434,7 +4434,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4352956",
     "nombreObra": "El año del diluvio",
     "idoma": "inglés",
-    "generos": "ficción satírica || Biopunk || ficción posapocalíptica",
+    "generos": "Biopunk || ficción satírica || ficción posapocalíptica",
     "fechaPublicacion": "2009-09-01T00:00:00Z"
   },
   {
@@ -4443,6 +4443,20 @@
     "idoma": "inglés",
     "generos": "novela",
     "fechaPublicacion": "1985-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4659903",
+    "nombreObra": "A Summons to Memphis",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1986-10-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4764731",
+    "nombreObra": "Animal, Vegetable, Miracle",
+    "idoma": "inglés",
+    "generos": "no ficción",
+    "fechaPublicacion": "2007-05-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4657416",
@@ -4457,6 +4471,13 @@
     "idoma": "inglés",
     "generos": "crítica literaria || ensayo",
     "fechaPublicacion": "1966-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4796152",
+    "nombreObra": "Flecha de Dios",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1964-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4658727",
@@ -4501,39 +4522,32 @@
     "fechaPublicacion": "1959-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4659903",
-    "nombreObra": "A Summons to Memphis",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1986-10-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4764731",
-    "nombreObra": "Animal, Vegetable, Miracle",
-    "idoma": "inglés",
-    "generos": "no ficción",
-    "fechaPublicacion": "2007-05-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4796152",
-    "nombreObra": "Flecha de Dios",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1964-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4913161",
-    "nombreObra": "Billy Phelan's Greatest Game",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1978-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4998526",
     "nombreObra": "La hija de Burger",
     "idoma": "inglés",
     "generos": "novela política || novela histórica",
     "fechaPublicacion": "1979-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5099897",
+    "nombreObra": "China Sky",
+    "idoma": "inglés",
+    "generos": "novela histórica",
+    "fechaPublicacion": "1941-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5215475",
+    "nombreObra": "Dancing Girls & Other Stories",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1977-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5057904",
+    "nombreObra": "Celestial Navigation",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "1974-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4886345",
@@ -4574,29 +4588,15 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4826169",
     "nombreObra": "Autobiografía de Rojo",
     "idoma": "inglés",
-    "generos": "ficción romántica || literatura LGBT || novela en verso || novela de aprendizaje || fantasía",
+    "generos": "novela en verso || literatura LGBT || ficción romántica || novela de aprendizaje || fantasía",
     "fechaPublicacion": "1998-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5099897",
-    "nombreObra": "China Sky",
-    "idoma": "inglés",
-    "generos": "novela histórica",
-    "fechaPublicacion": "1941-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5215475",
-    "nombreObra": "Dancing Girls & Other Stories",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q4913161",
+    "nombreObra": "Billy Phelan's Greatest Game",
     "idoma": "inglés",
     "generos": "",
-    "fechaPublicacion": "1977-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5057904",
-    "nombreObra": "Celestial Navigation",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "1974-01-01T00:00:00Z"
+    "fechaPublicacion": "1978-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4143729",
@@ -4700,7 +4700,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q5823933",
     "nombreObra": "El asombroso viaje de Pomponio Flato",
     "idoma": "español",
-    "generos": "ficción histórica || misterio histórico || ficción de detectives || comedia",
+    "generos": "misterio histórico || ficción histórica || ficción de detectives || comedia",
     "fechaPublicacion": "2008-01-01T00:00:00Z"
   },
   {
@@ -4788,34 +4788,6 @@
     "fechaPublicacion": "1986-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5824857",
-    "nombreObra": "El embrujo de Shanghai",
-    "idoma": "español",
-    "generos": "novela corta",
-    "fechaPublicacion": "1993-05-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5945871",
-    "nombreObra": "José Trigo",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": "1966-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5825296",
-    "nombreObra": "El hotelito",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5825538",
-    "nombreObra": "El lejano país de los estanques",
-    "idoma": "español",
-    "generos": "género policíaco",
-    "fechaPublicacion": "1998-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q5946214",
     "nombreObra": "La cabeza de la hidra",
     "idoma": "español",
@@ -4851,53 +4823,32 @@
     "fechaPublicacion": "1991-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6046030",
-    "nombreObra": "Noviembre y un poco de hierba",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5824857",
+    "nombreObra": "El embrujo de Shanghai",
+    "idoma": "español",
+    "generos": "novela corta",
+    "fechaPublicacion": "1993-05-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5945871",
+    "nombreObra": "José Trigo",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": "1966-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5825296",
+    "nombreObra": "El hotelito",
     "idoma": "español",
     "generos": "",
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6073570",
-    "nombreObra": "Petra regalada",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q5825538",
+    "nombreObra": "El lejano país de los estanques",
     "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6118036",
-    "nombreObra": "Samarkanda",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6172393",
-    "nombreObra": "¿Por qué corres, Ulises?",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6933750",
-    "nombreObra": "Mulata de tal",
-    "idoma": "español",
-    "generos": "ficción especulativa",
-    "fechaPublicacion": "1963-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7315414",
-    "nombreObra": "Residencia en la tierra",
-    "idoma": "español",
-    "generos": "poesía",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6538013",
-    "nombreObra": "Leyendas de Guatemala",
-    "idoma": "español",
-    "generos": "leyenda || fantasía",
-    "fechaPublicacion": "1930-01-01T00:00:00Z"
+    "generos": "género policíaco",
+    "fechaPublicacion": "1998-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q6082291",
@@ -4905,20 +4856,6 @@
     "idoma": "español",
     "generos": "ensayo",
     "fechaPublicacion": "1992-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6155511",
-    "nombreObra": "Un día volveré",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": "1982-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6175037",
-    "nombreObra": "Últimas tardes con Teresa",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": "1966-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q5970924",
@@ -4953,6 +4890,69 @@
     "nombreObra": "Los verdes campos del Edén",
     "idoma": "español",
     "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6046030",
+    "nombreObra": "Noviembre y un poco de hierba",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6073570",
+    "nombreObra": "Petra regalada",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6538013",
+    "nombreObra": "Leyendas de Guatemala",
+    "idoma": "español",
+    "generos": "leyenda || fantasía",
+    "fechaPublicacion": "1930-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6933750",
+    "nombreObra": "Mulata de tal",
+    "idoma": "español",
+    "generos": "ficción especulativa",
+    "fechaPublicacion": "1963-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6155511",
+    "nombreObra": "Un día volveré",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": "1982-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6175037",
+    "nombreObra": "Últimas tardes con Teresa",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": "1966-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6118036",
+    "nombreObra": "Samarkanda",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6172393",
+    "nombreObra": "¿Por qué corres, Ulises?",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7315414",
+    "nombreObra": "Residencia en la tierra",
+    "idoma": "español",
+    "generos": "poesía",
     "fechaPublicacion": ""
   },
   {
@@ -5243,6 +5243,13 @@
     "fechaPublicacion": "1957-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6489297",
+    "nombreObra": "Largo desolato",
+    "idoma": "checo",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q6510712",
     "nombreObra": "Leaving",
     "idoma": "checo",
@@ -5355,20 +5362,6 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11753121",
-    "nombreObra": "Lata czterdzieste. Dyktanda",
-    "idoma": "polaco",
-    "generos": "",
-    "fechaPublicacion": "2005-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11792642",
-    "nombreObra": "Noc księżycowa",
-    "idoma": "polaco",
-    "generos": "ciencia ficción",
-    "fechaPublicacion": "1963-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q9171173",
     "nombreObra": "Flights",
     "idoma": "polaco",
@@ -5411,39 +5404,25 @@
     "fechaPublicacion": "1961-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11753121",
+    "nombreObra": "Lata czterdzieste. Dyktanda",
+    "idoma": "polaco",
+    "generos": "",
+    "fechaPublicacion": "2005-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11792642",
+    "nombreObra": "Noc księżycowa",
+    "idoma": "polaco",
+    "generos": "ciencia ficción",
+    "fechaPublicacion": "1963-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q11719936",
     "nombreObra": "Janko Muzykant",
     "idoma": "polaco",
     "generos": "novela corta",
     "fechaPublicacion": "1879-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q8561665",
-    "nombreObra": "Don Juan",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11681856",
-    "nombreObra": "Filomeno, a mi pesar",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": "1988-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q8195504",
-    "nombreObra": "Algún día, cuando pueda llevarte a Varsovia",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11703879",
-    "nombreObra": "Sin noticias de Gurb",
-    "idoma": "español",
-    "generos": "novela",
-    "fechaPublicacion": "1991-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q7754845",
@@ -5460,6 +5439,20 @@
     "fechaPublicacion": "1969-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q8195504",
+    "nombreObra": "Algún día, cuando pueda llevarte a Varsovia",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11703879",
+    "nombreObra": "Sin noticias de Gurb",
+    "idoma": "español",
+    "generos": "novela",
+    "fechaPublicacion": "1991-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q11705564",
     "nombreObra": "Ética para Amador",
     "idoma": "español",
@@ -5472,6 +5465,20 @@
     "idoma": "español",
     "generos": "",
     "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q8561665",
+    "nombreObra": "Don Juan",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q11681856",
+    "nombreObra": "Filomeno, a mi pesar",
+    "idoma": "español",
+    "generos": "",
+    "fechaPublicacion": "1988-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q7637251",
@@ -5843,6 +5850,13 @@
     "idoma": "noruego",
     "generos": "",
     "fechaPublicacion": "1925-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7699026",
+    "nombreObra": "Temptation",
+    "idoma": "checo",
+    "generos": "",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q7750966",
@@ -6303,7 +6317,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q21065489",
     "nombreObra": "The Heart Goes Last",
     "idoma": "inglés",
-    "generos": "novela de ciencia ficción || novela distópica",
+    "generos": "novela distópica || novela de ciencia ficción",
     "fechaPublicacion": "2015-01-01T00:00:00Z"
   },
   {
@@ -6370,13 +6384,6 @@
     "fechaPublicacion": "1952-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q12316793",
-    "nombreObra": "Stories from Himmerland",
-    "idoma": "danés",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q15080194",
     "nombreObra": "El jilguero",
     "idoma": "inglés estadounidense",
@@ -6396,6 +6403,13 @@
     "idoma": "inglés estadounidense",
     "generos": "",
     "fechaPublicacion": "1936-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q12316793",
+    "nombreObra": "Stories from Himmerland",
+    "idoma": "danés",
+    "generos": "",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q11978379",
@@ -6468,6 +6482,13 @@
     "fechaPublicacion": "1962-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16386468",
+    "nombreObra": "Jogajog",
+    "idoma": "bangla",
+    "generos": "novela social",
+    "fechaPublicacion": ""
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q12192742",
     "nombreObra": "Mirrors (novel)",
     "idoma": "árabe",
@@ -6482,11 +6503,25 @@
     "fechaPublicacion": "1966-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16386468",
-    "nombreObra": "Jogajog",
-    "idoma": "bangla",
-    "generos": "novela social",
-    "fechaPublicacion": ""
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q100295743",
+    "nombreObra": "Les Entfants verts || Zielone dzieci",
+    "idoma": "francés",
+    "generos": "narrativa || libro de viaje",
+    "fechaPublicacion": "2016-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q87913469",
+    "nombreObra": "The Country of Others",
+    "idoma": "francés",
+    "generos": "novela",
+    "fechaPublicacion": "2020-03-05T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q58798753",
+    "nombreObra": "Hermano de alma",
+    "idoma": "francés",
+    "generos": "novela bélica || novela psicológica || novela histórica",
+    "fechaPublicacion": "2018-08-16T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q30741027",
@@ -6517,13 +6552,6 @@
     "fechaPublicacion": "2016-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q58798753",
-    "nombreObra": "Hermano de alma",
-    "idoma": "francés",
-    "generos": "novela bélica || novela psicológica || novela histórica",
-    "fechaPublicacion": "2018-08-16T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q47632985",
     "nombreObra": "Albert Camus, María Casares. Correspondencia (1944-1959)",
     "idoma": "francés",
@@ -6536,20 +6564,6 @@
     "idoma": "francés",
     "generos": "",
     "fechaPublicacion": "1920-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q100295743",
-    "nombreObra": "Les Entfants verts || Zielone dzieci",
-    "idoma": "francés",
-    "generos": "narrativa || libro de viaje",
-    "fechaPublicacion": "2016-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q87913469",
-    "nombreObra": "The Country of Others",
-    "idoma": "francés",
-    "generos": "novela",
-    "fechaPublicacion": "2020-03-05T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q66738015",
@@ -6716,7 +6730,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q76858677",
     "nombreObra": "Ofrenda a la tormenta",
     "idoma": "español",
-    "generos": "misterio || suspenso",
+    "generos": "suspenso || misterio",
     "fechaPublicacion": "2014-11-25T00:00:00Z"
   },
   {
@@ -6734,18 +6748,18 @@
     "fechaPublicacion": "2009-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q39081675",
-    "nombreObra": "Gárgoris y Habidis",
-    "idoma": "español",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q43133681",
     "nombreObra": "Fulgor y muerte de Joaquín Murieta",
     "idoma": "español",
     "generos": "drama",
     "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q101420765",
+    "nombreObra": "El negociado del ying y el yang",
+    "idoma": "español",
+    "generos": "comedia",
+    "fechaPublicacion": "2019-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q101420721",
@@ -6755,11 +6769,11 @@
     "fechaPublicacion": "2018-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q101420765",
-    "nombreObra": "El negociado del ying y el yang",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q39081675",
+    "nombreObra": "Gárgoris y Habidis",
     "idoma": "español",
-    "generos": "comedia",
-    "fechaPublicacion": "2019-01-01T00:00:00Z"
+    "generos": "",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q76858060",
@@ -6870,7 +6884,7 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q28836534",
     "nombreObra": "Killing Commendatore",
     "idoma": "japonés",
-    "generos": "ficción posmoderna || ficción histórica || fantasía",
+    "generos": "ficción histórica || fantasía || ficción posmoderna",
     "fechaPublicacion": "2017-02-24T00:00:00Z"
   },
   {
@@ -6888,18 +6902,18 @@
     "fechaPublicacion": "2011-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q60749232",
-    "nombreObra": "Wildlife",
-    "idoma": "inglés estadounidense",
-    "generos": "novela",
-    "fechaPublicacion": "1990-05-01T00:00:00Z || 1990-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q23009890",
     "nombreObra": "Digte",
     "idoma": "danés || Juto",
     "generos": "poema en prosa",
     "fechaPublicacion": "1906-11-14T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q60749232",
+    "nombreObra": "Wildlife",
+    "idoma": "inglés estadounidense",
+    "generos": "novela",
+    "fechaPublicacion": "1990-05-01T00:00:00Z || 1990-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q23823914",
@@ -6993,18 +7007,18 @@
     "fechaPublicacion": "1995-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q56526684",
-    "nombreObra": "La magie blanche de Saint-Pétersbourg",
-    "idoma": "francés de Francia",
-    "generos": "no ficción",
-    "fechaPublicacion": "1994-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q110243542",
     "nombreObra": "Aniquilación",
     "idoma": "francés",
     "generos": "novela",
     "fechaPublicacion": "2022-01-07T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q56526684",
+    "nombreObra": "La magie blanche de Saint-Pétersbourg",
+    "idoma": "francés de Francia",
+    "generos": "no ficción",
+    "fechaPublicacion": "1994-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q123975471",
@@ -7042,18 +7056,18 @@
     "fechaPublicacion": "1927-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q27462",
-    "nombreObra": "Los sótanos del Vaticano",
-    "idoma": "francés",
-    "generos": "",
-    "fechaPublicacion": "1922-01-01T00:00:00Z || 1914-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q27463",
     "nombreObra": "Strait Is the Gate",
     "idoma": "francés",
     "generos": "epistolario",
     "fechaPublicacion": "1909-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q27462",
+    "nombreObra": "Los sótanos del Vaticano",
+    "idoma": "francés",
+    "generos": "",
+    "fechaPublicacion": "1922-01-01T00:00:00Z || 1914-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q31720",
@@ -7122,14 +7136,14 @@
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q109177363",
     "nombreObra": "La Bestia",
     "idoma": "español",
-    "generos": "novela negra || historia de la literatura moderna || novela policíaca",
+    "generos": "historia de la literatura moderna || novela negra || novela policíaca",
     "fechaPublicacion": "2021-11-04T00:00:00Z || 2021-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q109192391",
     "nombreObra": "Aquitania",
     "idoma": "español",
-    "generos": "novela negra || historia de la literatura moderna || novela histórica || suspenso",
+    "generos": "historia de la literatura moderna || novela negra || suspenso || novela histórica",
     "fechaPublicacion": "2020-11-05T00:00:00Z"
   },
   {
@@ -7147,25 +7161,18 @@
     "fechaPublicacion": "2018-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q113549027",
-    "nombreObra": "Stella Maris",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q125812054",
-    "nombreObra": "Is That a Fish in Your Ear? Translation and the Meaning of Everything",
-    "idoma": "inglés",
-    "generos": "",
-    "fechaPublicacion": "2011-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q113456487",
     "nombreObra": "El pasajero",
     "idoma": "inglés",
     "generos": "",
     "fechaPublicacion": "2022-10-25T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q113549027",
+    "nombreObra": "Stella Maris",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q108829372",
@@ -7201,6 +7208,13 @@
     "idoma": "inglés",
     "generos": "",
     "fechaPublicacion": "1987-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q125812054",
+    "nombreObra": "Is That a Fish in Your Ear? Translation and the Meaning of Everything",
+    "idoma": "inglés",
+    "generos": "",
+    "fechaPublicacion": "2011-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q110552625",
@@ -7266,18 +7280,18 @@
     "fechaPublicacion": "2020-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q26505",
-    "nombreObra": "El viejo y el mar",
-    "idoma": "inglés estadounidense",
-    "generos": "novela corta",
-    "fechaPublicacion": ""
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q108871736",
     "nombreObra": "The Netanyahus",
     "idoma": "inglés estadounidense",
     "generos": "",
     "fechaPublicacion": "2021-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q26505",
+    "nombreObra": "El viejo y el mar",
+    "idoma": "inglés estadounidense",
+    "generos": "novela corta",
+    "fechaPublicacion": ""
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q106687739",
@@ -7526,7 +7540,7 @@
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q6548960",
-    "nombreObra": "Olympischer Frühling || אביב אולימפי || Olympischer Frühling || Olympischer Frühling",
+    "nombreObra": "Olympian Spring",
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
@@ -7537,6 +7551,13 @@
     "idoma": "",
     "generos": "",
     "fechaPublicacion": "1974-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7712487",
+    "nombreObra": "Empresas y tribulaciones de Maqroll el Gaviero",
+    "idoma": "",
+    "generos": "novela corta",
+    "fechaPublicacion": "1993-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q4660832",
@@ -7581,24 +7602,17 @@
     "fechaPublicacion": "1999-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7716342",
+    "nombreObra": "The Beginning and the End",
+    "idoma": "",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q5839976",
     "nombreObra": "España en el corazón",
     "idoma": "",
     "generos": "poesía",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q6489297",
-    "nombreObra": "Largo desolato",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7699026",
-    "nombreObra": "Temptation",
-    "idoma": "",
-    "generos": "",
     "fechaPublicacion": ""
   },
   {
@@ -7616,22 +7630,15 @@
     "fechaPublicacion": "1989-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7756292",
-    "nombreObra": "El hombre es un gran faisán en el mundo",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": "1986-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q12756374",
-    "nombreObra": "O priči i pričanju",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16084412",
+    "nombreObra": "Omerpaša Latas",
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16084412",
-    "nombreObra": "Omerpaša Latas",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16098237",
+    "nombreObra": "Ex Ponto",
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
@@ -7663,13 +7670,6 @@
     "idoma": "",
     "generos": "",
     "fechaPublicacion": "1931-05-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7712487",
-    "nombreObra": "Empresas y tribulaciones de Maqroll el Gaviero",
-    "idoma": "",
-    "generos": "novela corta",
-    "fechaPublicacion": "1993-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q7738010",
@@ -7707,13 +7707,6 @@
     "fechaPublicacion": "1972-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7716342",
-    "nombreObra": "The Beginning and the End",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q7762831",
     "nombreObra": "The Search",
     "idoma": "",
@@ -7730,6 +7723,20 @@
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q12208386",
     "nombreObra": "Respected Sir",
+    "idoma": "",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q7756292",
+    "nombreObra": "El hombre es un gran faisán en el mundo",
+    "idoma": "",
+    "generos": "",
+    "fechaPublicacion": "1986-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q12756374",
+    "nombreObra": "O priči i pričanju",
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
@@ -7772,6 +7779,13 @@
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q16642272",
     "nombreObra": "Hommage à Piero della Francesca",
+    "idoma": "",
+    "generos": "",
+    "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q48748337",
+    "nombreObra": "Oiseaux",
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
@@ -7854,6 +7868,13 @@
     "fechaPublicacion": "1997-01-01T00:00:00Z"
   },
   {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q48753122",
+    "nombreObra": "Falaise des fous",
+    "idoma": "",
+    "generos": "novela",
+    "fechaPublicacion": "2018-01-01T00:00:00Z"
+  },
+  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q23307353",
     "nombreObra": "Wedding Song",
     "idoma": "",
@@ -7868,11 +7889,11 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q16098237",
-    "nombreObra": "Ex Ponto",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q42188302",
+    "nombreObra": "Crepusculario",
     "idoma": "",
     "generos": "",
-    "fechaPublicacion": ""
+    "fechaPublicacion": "1923-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q16303559",
@@ -7880,6 +7901,20 @@
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q74460555",
+    "nombreObra": "Malabana, (película de 2001)",
+    "idoma": "",
+    "generos": "humor negro || cine independiente",
+    "fechaPublicacion": "2001-01-01T00:00:00Z"
+  },
+  {
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q74532423",
+    "nombreObra": "Not Everybody Lives the Same Way",
+    "idoma": "",
+    "generos": "novela",
+    "fechaPublicacion": "2019-08-14T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q54864088",
@@ -7903,13 +7938,6 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q42188302",
-    "nombreObra": "Crepusculario",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": "1923-01-01T00:00:00Z"
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q56328007",
     "nombreObra": "Saint's Progress",
     "idoma": "",
@@ -7931,13 +7959,6 @@
     "fechaPublicacion": "1943-01-01T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q48748337",
-    "nombreObra": "Oiseaux",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": ""
-  },
-  {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q87500329",
     "nombreObra": "و",
     "idoma": "",
@@ -7945,25 +7966,18 @@
     "fechaPublicacion": ""
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q74460555",
-    "nombreObra": "Malabana, (película de 2001)",
-    "idoma": "",
-    "generos": "cine independiente || humor negro",
-    "fechaPublicacion": "2001-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q74532423",
-    "nombreObra": "Not Everybody Lives the Same Way",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q97234903",
+    "nombreObra": "Nights of Plague",
     "idoma": "",
     "generos": "novela",
-    "fechaPublicacion": "2019-08-14T00:00:00Z"
+    "fechaPublicacion": "2021-03-23T00:00:00Z"
   },
   {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q48753122",
-    "nombreObra": "Falaise des fous",
+    "obraDestacadaURI": "http://www.wikidata.org/entity/Q96759639",
+    "nombreObra": "Histoire égoïste || Histoire égoïste",
     "idoma": "",
-    "generos": "novela",
-    "fechaPublicacion": "2018-01-01T00:00:00Z"
+    "generos": "",
+    "fechaPublicacion": "1976-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q105979825",
@@ -7971,13 +7985,6 @@
     "idoma": "",
     "generos": "",
     "fechaPublicacion": "1955-01-01T00:00:00Z"
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q97234903",
-    "nombreObra": "Nights of Plague",
-    "idoma": "",
-    "generos": "novela",
-    "fechaPublicacion": "2021-03-23T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q108829154",
@@ -7999,13 +8006,6 @@
     "idoma": "",
     "generos": "",
     "fechaPublicacion": ""
-  },
-  {
-    "obraDestacadaURI": "http://www.wikidata.org/entity/Q96759639",
-    "nombreObra": "Histoire égoïste || Histoire égoïste",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": "1976-01-01T00:00:00Z"
   },
   {
     "obraDestacadaURI": "http://www.wikidata.org/entity/Q109211556",
@@ -8055,11 +8055,5 @@
     "idoma": "",
     "generos": "teatro",
     "fechaPublicacion": "1901-01-01T00:00:00Z"
-  },
-  {
-    "nombreObra": "",
-    "idoma": "",
-    "generos": "",
-    "fechaPublicacion": ""
   }
 ]

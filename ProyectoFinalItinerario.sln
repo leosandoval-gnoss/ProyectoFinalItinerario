@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFinalItinerario", "ProyectoFinalItinerario\ProyectoFinalItinerario.csproj", "{BBD127FE-CBD4-4FF1-8836-F996961A6CE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo-gnoss-akademia-20-10", "ClasesGeneradas\demo-gnoss-akademia-20-10.csproj", "{0CE4E7B7-B1B5-4665-A685-6F3BCF66E3B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo-gnoss-akademia-20-10", "clasesGeneradas\demo-gnoss-akademia-20-10.csproj", "{DBE6D338-0B5B-463E-8303-BA7D6E41222C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BBD127FE-CBD4-4FF1-8836-F996961A6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD127FE-CBD4-4FF1-8836-F996961A6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD127FE-CBD4-4FF1-8836-F996961A6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CE4E7B7-B1B5-4665-A685-6F3BCF66E3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CE4E7B7-B1B5-4665-A685-6F3BCF66E3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CE4E7B7-B1B5-4665-A685-6F3BCF66E3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CE4E7B7-B1B5-4665-A685-6F3BCF66E3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE6D338-0B5B-463E-8303-BA7D6E41222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE6D338-0B5B-463E-8303-BA7D6E41222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE6D338-0B5B-463E-8303-BA7D6E41222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE6D338-0B5B-463E-8303-BA7D6E41222C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

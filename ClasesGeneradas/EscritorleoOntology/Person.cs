@@ -15,6 +15,7 @@ using System.Globalization;
 using System.Collections;
 using Gnoss.ApiWrapper.Exceptions;
 using System.Diagnostics.CodeAnalysis;
+using Award = PremioleoOntology.Award;
 using Book = ObraleoOntology.Book;
 
 namespace EscritorleoOntology
@@ -27,6 +28,18 @@ namespace EscritorleoOntology
 		public Person(SemanticResourceModel pSemCmsModel, LanguageEnum idiomaUsuario) : base()
 		{
 			GNOSSID = pSemCmsModel.RootEntities[0].Entity.Uri;
+			Schema_awards = new List<Award>();
+			SemanticPropertyModel propSchema_awards = pSemCmsModel.GetPropertyByPath("http://schema.org/awards");
+			if(propSchema_awards != null && propSchema_awards.PropertyValues.Count > 0)
+			{
+				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_awards.PropertyValues)
+				{
+					if(propValue.RelatedEntity!=null){
+						Award schema_awards = new Award(propValue.RelatedEntity,idiomaUsuario);
+						Schema_awards.Add(schema_awards);
+					}
+				}
+			}
 			Try_authorOf = new List<Book>();
 			SemanticPropertyModel propTry_authorOf = pSemCmsModel.GetPropertyByPath("http://try.gnoss.com/ontology#authorOf");
 			if(propTry_authorOf != null && propTry_authorOf.PropertyValues.Count > 0)
@@ -39,18 +52,19 @@ namespace EscritorleoOntology
 					}
 				}
 			}
-			this.Schema_birthDate = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/birthDate"));
-			this.Schema_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/gender"));
-			this.Schema_image = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/image"));
-			SemanticPropertyModel propSchema_awards = pSemCmsModel.GetPropertyByPath("http://schema.org/awards");
-			this.Schema_awards = new List<string>();
-			if (propSchema_awards != null && propSchema_awards.PropertyValues.Count > 0)
+			Schema_nationality = new List<Country>();
+			SemanticPropertyModel propSchema_nationality = pSemCmsModel.GetPropertyByPath("http://schema.org/nationality");
+			if(propSchema_nationality != null && propSchema_nationality.PropertyValues.Count > 0)
 			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_awards.PropertyValues)
+				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_nationality.PropertyValues)
 				{
-					this.Schema_awards.Add(propValue.Value);
+					if(propValue.RelatedEntity!=null){
+						Country schema_nationality = new Country(propValue.RelatedEntity,idiomaUsuario);
+						Schema_nationality.Add(schema_nationality);
+					}
 				}
 			}
+			this.Foaf_birthday = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/birthday"));
 			SemanticPropertyModel propSchema_occupation = pSemCmsModel.GetPropertyByPath("http://schema.org/occupation");
 			this.Schema_occupation = new List<string>();
 			if (propSchema_occupation != null && propSchema_occupation.PropertyValues.Count > 0)
@@ -60,16 +74,7 @@ namespace EscritorleoOntology
 					this.Schema_occupation.Add(propValue.Value);
 				}
 			}
-			SemanticPropertyModel propSchema_countryOfOrigin = pSemCmsModel.GetPropertyByPath("http://schema.org/countryOfOrigin");
-			this.Schema_countryOfOrigin = new List<string>();
-			if (propSchema_countryOfOrigin != null && propSchema_countryOfOrigin.PropertyValues.Count > 0)
-			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_countryOfOrigin.PropertyValues)
-				{
-					this.Schema_countryOfOrigin.Add(propValue.Value);
-				}
-			}
-			this.Schema_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/name"));
+			this.Foaf_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/name"));
 			SemanticPropertyModel propSchema_movement = pSemCmsModel.GetPropertyByPath("http://schema.org/movement");
 			this.Schema_movement = new List<string>();
 			if (propSchema_movement != null && propSchema_movement.PropertyValues.Count > 0)
@@ -77,6 +82,17 @@ namespace EscritorleoOntology
 				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_movement.PropertyValues)
 				{
 					this.Schema_movement.Add(propValue.Value);
+				}
+			}
+			this.Foaf_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/gender"));
+			this.Foaf_img = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/img"));
+			SemanticPropertyModel propFoaf_surname = pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/surname");
+			this.Foaf_surname = new List<string>();
+			if (propFoaf_surname != null && propFoaf_surname.PropertyValues.Count > 0)
+			{
+				foreach (SemanticPropertyModel.PropertyValue propValue in propFoaf_surname.PropertyValues)
+				{
+					this.Foaf_surname.Add(propValue.Value);
 				}
 			}
 		}
@@ -85,6 +101,18 @@ namespace EscritorleoOntology
 		{
 			mGNOSSID = pSemCmsModel.Entity.Uri;
 			mURL = pSemCmsModel.Properties.FirstOrDefault(p => p.PropertyValues.Any(prop => prop.DownloadUrl != null))?.FirstPropertyValue.DownloadUrl;
+			Schema_awards = new List<Award>();
+			SemanticPropertyModel propSchema_awards = pSemCmsModel.GetPropertyByPath("http://schema.org/awards");
+			if(propSchema_awards != null && propSchema_awards.PropertyValues.Count > 0)
+			{
+				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_awards.PropertyValues)
+				{
+					if(propValue.RelatedEntity!=null){
+						Award schema_awards = new Award(propValue.RelatedEntity,idiomaUsuario);
+						Schema_awards.Add(schema_awards);
+					}
+				}
+			}
 			Try_authorOf = new List<Book>();
 			SemanticPropertyModel propTry_authorOf = pSemCmsModel.GetPropertyByPath("http://try.gnoss.com/ontology#authorOf");
 			if(propTry_authorOf != null && propTry_authorOf.PropertyValues.Count > 0)
@@ -97,18 +125,19 @@ namespace EscritorleoOntology
 					}
 				}
 			}
-			this.Schema_birthDate = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/birthDate"));
-			this.Schema_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/gender"));
-			this.Schema_image = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/image"));
-			SemanticPropertyModel propSchema_awards = pSemCmsModel.GetPropertyByPath("http://schema.org/awards");
-			this.Schema_awards = new List<string>();
-			if (propSchema_awards != null && propSchema_awards.PropertyValues.Count > 0)
+			Schema_nationality = new List<Country>();
+			SemanticPropertyModel propSchema_nationality = pSemCmsModel.GetPropertyByPath("http://schema.org/nationality");
+			if(propSchema_nationality != null && propSchema_nationality.PropertyValues.Count > 0)
 			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_awards.PropertyValues)
+				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_nationality.PropertyValues)
 				{
-					this.Schema_awards.Add(propValue.Value);
+					if(propValue.RelatedEntity!=null){
+						Country schema_nationality = new Country(propValue.RelatedEntity,idiomaUsuario);
+						Schema_nationality.Add(schema_nationality);
+					}
 				}
 			}
+			this.Foaf_birthday = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/birthday"));
 			SemanticPropertyModel propSchema_occupation = pSemCmsModel.GetPropertyByPath("http://schema.org/occupation");
 			this.Schema_occupation = new List<string>();
 			if (propSchema_occupation != null && propSchema_occupation.PropertyValues.Count > 0)
@@ -118,16 +147,7 @@ namespace EscritorleoOntology
 					this.Schema_occupation.Add(propValue.Value);
 				}
 			}
-			SemanticPropertyModel propSchema_countryOfOrigin = pSemCmsModel.GetPropertyByPath("http://schema.org/countryOfOrigin");
-			this.Schema_countryOfOrigin = new List<string>();
-			if (propSchema_countryOfOrigin != null && propSchema_countryOfOrigin.PropertyValues.Count > 0)
-			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propSchema_countryOfOrigin.PropertyValues)
-				{
-					this.Schema_countryOfOrigin.Add(propValue.Value);
-				}
-			}
-			this.Schema_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/name"));
+			this.Foaf_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/name"));
 			SemanticPropertyModel propSchema_movement = pSemCmsModel.GetPropertyByPath("http://schema.org/movement");
 			this.Schema_movement = new List<string>();
 			if (propSchema_movement != null && propSchema_movement.PropertyValues.Count > 0)
@@ -137,67 +157,92 @@ namespace EscritorleoOntology
 					this.Schema_movement.Add(propValue.Value);
 				}
 			}
+			this.Foaf_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/gender"));
+			this.Foaf_img = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/img"));
+			SemanticPropertyModel propFoaf_surname = pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/surname");
+			this.Foaf_surname = new List<string>();
+			if (propFoaf_surname != null && propFoaf_surname.PropertyValues.Count > 0)
+			{
+				foreach (SemanticPropertyModel.PropertyValue propValue in propFoaf_surname.PropertyValues)
+				{
+					this.Foaf_surname.Add(propValue.Value);
+				}
+			}
 		}
 
-		public virtual string RdfType { get { return "http://schema.org/Person"; } }
-		public virtual string RdfsLabel { get { return "http://schema.org/Person"; } }
+		public virtual string RdfType { get { return "http://xmlns.com/foaf/0.1/Person"; } }
+		public virtual string RdfsLabel { get { return "http://xmlns.com/foaf/0.1/Person"; } }
+		[LABEL(LanguageEnum.es,"Premios")]
+		[RDFProperty("http://schema.org/awards")]
+		public  List<Award> Schema_awards { get; set;}
+		public List<string> IdsSchema_awards { get; set;}
+
 		[LABEL(LanguageEnum.es,"Autor de")]
 		[RDFProperty("http://try.gnoss.com/ontology#authorOf")]
 		public  List<Book> Try_authorOf { get; set;}
 		public List<string> IdsTry_authorOf { get; set;}
 
+		[LABEL(LanguageEnum.es,"Nacionalidad")]
+		[RDFProperty("http://schema.org/nationality")]
+		public  List<Country> Schema_nationality { get; set;}
+
 		[LABEL(LanguageEnum.es,"Fecha de nacimiento")]
-		[RDFProperty("http://schema.org/birthDate")]
-		public  DateTime? Schema_birthDate { get; set;}
-
-		[LABEL(LanguageEnum.es,"Género")]
-		[RDFProperty("http://schema.org/gender")]
-		public  string Schema_gender { get; set;}
-
-		[LABEL(LanguageEnum.es,"Foto")]
-		[RDFProperty("http://schema.org/image")]
-		public  string Schema_image { get; set;}
-
-		[LABEL(LanguageEnum.es,"Premios")]
-		[RDFProperty("http://schema.org/awards")]
-		public  List<string> Schema_awards { get; set;}
+		[RDFProperty("http://xmlns.com/foaf/0.1/birthday")]
+		public  DateTime? Foaf_birthday { get; set;}
 
 		[LABEL(LanguageEnum.es,"Ocupaciones")]
 		[RDFProperty("http://schema.org/occupation")]
 		public  List<string> Schema_occupation { get; set;}
 
-		[LABEL(LanguageEnum.es,"Pais")]
-		[RDFProperty("http://schema.org/countryOfOrigin")]
-		public  List<string> Schema_countryOfOrigin { get; set;}
-
 		[LABEL(LanguageEnum.es,"Nombre")]
-		[RDFProperty("http://schema.org/name")]
-		public  string Schema_name { get; set;}
+		[RDFProperty("http://xmlns.com/foaf/0.1/name")]
+		public  string Foaf_name { get; set;}
 
 		[LABEL(LanguageEnum.es,"Movimientos")]
 		[RDFProperty("http://schema.org/movement")]
 		public  List<string> Schema_movement { get; set;}
 
+		[LABEL(LanguageEnum.es,"Genero")]
+		[RDFProperty("http://xmlns.com/foaf/0.1/gender")]
+		public  string Foaf_gender { get; set;}
+
+		[LABEL(LanguageEnum.es,"Foto")]
+		[RDFProperty("http://xmlns.com/foaf/0.1/img")]
+		public  string Foaf_img { get; set;}
+
+		[LABEL(LanguageEnum.es,"Apellido")]
+		[RDFProperty("http://xmlns.com/foaf/0.1/surname")]
+		public  List<string> Foaf_surname { get; set;}
+
 
 		internal override void GetProperties()
 		{
 			base.GetProperties();
+			propList.Add(new ListStringOntologyProperty("schema:awards", this.IdsSchema_awards));
 			propList.Add(new ListStringOntologyProperty("try:authorOf", this.IdsTry_authorOf));
-			if (this.Schema_birthDate.HasValue){
-				propList.Add(new DateOntologyProperty("schema:birthDate", this.Schema_birthDate.Value));
+			if (this.Foaf_birthday.HasValue){
+				propList.Add(new DateOntologyProperty("foaf:birthday", this.Foaf_birthday.Value));
 				}
-			propList.Add(new StringOntologyProperty("schema:gender", this.Schema_gender));
-			propList.Add(new StringOntologyProperty("schema:image", this.Schema_image));
-			propList.Add(new ListStringOntologyProperty("schema:awards", this.Schema_awards));
 			propList.Add(new ListStringOntologyProperty("schema:occupation", this.Schema_occupation));
-			propList.Add(new ListStringOntologyProperty("schema:countryOfOrigin", this.Schema_countryOfOrigin));
-			propList.Add(new StringOntologyProperty("schema:name", this.Schema_name));
+			propList.Add(new StringOntologyProperty("foaf:name", this.Foaf_name));
 			propList.Add(new ListStringOntologyProperty("schema:movement", this.Schema_movement));
+			propList.Add(new StringOntologyProperty("foaf:gender", this.Foaf_gender));
+			propList.Add(new StringOntologyProperty("foaf:img", this.Foaf_img));
+			propList.Add(new ListStringOntologyProperty("foaf:surname", this.Foaf_surname));
 		}
 
 		internal override void GetEntities()
 		{
 			base.GetEntities();
+			if(Schema_nationality!=null){
+				foreach(Country prop in Schema_nationality){
+					prop.GetProperties();
+					prop.GetEntities();
+					OntologyEntity entityCountry = new OntologyEntity("http://schema.org/Country", "http://schema.org/Country", "schema:nationality", prop.propList, prop.entList);
+				entList.Add(entityCountry);
+				prop.Entity = entityCountry;
+				}
+			}
 		} 
 		public virtual ComplexOntologyResource ToGnossApiResource(ResourceApi resourceAPI)
 		{
@@ -218,6 +263,7 @@ namespace EscritorleoOntology
 		{
 			ComplexOntologyResource resource = new ComplexOntologyResource();
 			Ontology ontology = null;
+			GetEntities();
 			GetProperties();
 			if(idrecurso.Equals(Guid.Empty) && idarticulo.Equals(Guid.Empty))
 			{
@@ -231,6 +277,7 @@ namespace EscritorleoOntology
 			resource.TextCategories = listaDeCategorias;
 			resource.CategoriesIds = listaIdDeCategorias;
 			AddResourceTitle(resource);
+			AddResourceDescription(resource);
 			AddImages(resource);
 			AddFiles(resource);
 			return resource;
@@ -239,9 +286,37 @@ namespace EscritorleoOntology
 		public override List<string> ToOntologyGnossTriples(ResourceApi resourceAPI)
 		{
 			List<string> list = new List<string>();
-			AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", $"<http://schema.org/Person>", list, " . ");
-			AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://www.w3.org/2000/01/rdf-schema#label", $"\"http://schema.org/Person\"", list, " . ");
+			AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", $"<http://xmlns.com/foaf/0.1/Person>", list, " . ");
+			AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://www.w3.org/2000/01/rdf-schema#label", $"\"http://xmlns.com/foaf/0.1/Person\"", list, " . ");
 			AgregarTripleALista($"{resourceAPI.GraphsUrl}{ResourceID}", "http://gnoss/hasEntidad", $"<{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}>", list, " . ");
+			if(this.Schema_nationality != null)
+			{
+			foreach(var item0 in this.Schema_nationality)
+			{
+				AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", $"<http://schema.org/Country>", list, " . ");
+				AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://www.w3.org/2000/01/rdf-schema#label", $"\"http://schema.org/Country\"", list, " . ");
+				AgregarTripleALista($"{resourceAPI.GraphsUrl}{ResourceID}", "http://gnoss/hasEntidad", $"<{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}>", list, " . ");
+				AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/nationality", $"<{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}>", list, " . ");
+				if(item0.Schema_containedInPlace != null)
+				{
+					foreach(var item2 in item0.Schema_containedInPlace)
+					{
+						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://schema.org/containedInPlace", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
+					}
+				}
+				if(item0.Schema_name != null)
+				{
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(item0.Schema_name)}\"", list, " . ");
+				}
+			}
+			}
+				if(this.IdsSchema_awards != null)
+				{
+					foreach(var item2 in this.IdsSchema_awards)
+					{
+						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/awards", $"<{item2}>", list, " . ");
+					}
+				}
 				if(this.IdsTry_authorOf != null)
 				{
 					foreach(var item2 in this.IdsTry_authorOf)
@@ -249,24 +324,9 @@ namespace EscritorleoOntology
 						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://try.gnoss.com/ontology#authorOf", $"<{item2}>", list, " . ");
 					}
 				}
-				if(this.Schema_birthDate != null)
+				if(this.Foaf_birthday != null)
 				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/birthDate",  $"\"{this.Schema_birthDate.Value.ToString("yyyyMMddHHmmss")}\"", list, " . ");
-				}
-				if(this.Schema_gender != null)
-				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/gender",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_gender)}\"", list, " . ");
-				}
-				if(this.Schema_image != null)
-				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/image",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_image)}\"", list, " . ");
-				}
-				if(this.Schema_awards != null)
-				{
-					foreach(var item2 in this.Schema_awards)
-					{
-						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/awards", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/birthday",  $"\"{this.Foaf_birthday.Value.ToString("yyyyMMddHHmmss")}\"", list, " . ");
 				}
 				if(this.Schema_occupation != null)
 				{
@@ -275,22 +335,30 @@ namespace EscritorleoOntology
 						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/occupation", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
 					}
 				}
-				if(this.Schema_countryOfOrigin != null)
+				if(this.Foaf_name != null)
 				{
-					foreach(var item2 in this.Schema_countryOfOrigin)
-					{
-						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/countryOfOrigin", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
-				}
-				if(this.Schema_name != null)
-				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_name)}\"", list, " . ");
 				}
 				if(this.Schema_movement != null)
 				{
 					foreach(var item2 in this.Schema_movement)
 					{
 						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://schema.org/movement", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
+					}
+				}
+				if(this.Foaf_gender != null)
+				{
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/gender",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_gender)}\"", list, " . ");
+				}
+				if(this.Foaf_img != null)
+				{
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/img",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_img)}\"", list, " . ");
+				}
+				if(this.Foaf_surname != null)
+				{
+					foreach(var item2 in this.Foaf_surname)
+					{
+						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/surname", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
 					}
 				}
 			return list;
@@ -302,15 +370,51 @@ namespace EscritorleoOntology
 			List<string> listaSearch = new List<string>();
 			AgregarTags(list);
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", $"\"escritorleo\"", list, " . ");
-			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/type", $"\"http://schema.org/Person\"", list, " . ");
+			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/type", $"\"http://xmlns.com/foaf/0.1/Person\"", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasfechapublicacion", $"{DateTime.Now.ToString("yyyyMMddHHmmss")}", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hastipodoc", "\"5\"", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasfechamodificacion", $"{DateTime.Now.ToString("yyyyMMddHHmmss")}", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnumeroVisitas", "0", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasprivacidadCom", "\"publico\"", list, " . ");
-			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/firstName", $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
-			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnombrecompleto", $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/firstName", $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_name)}\"", list, " . ");
+			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnombrecompleto", $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_name)}\"", list, " . ");
 			string search = string.Empty;
+			if(this.Schema_nationality != null)
+			{
+			foreach(var item0 in this.Schema_nationality)
+			{
+				AgregarTripleALista($"http://gnossAuxiliar/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasEntidadAuxiliar", $"<{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}>", list, " . ");
+				AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/nationality", $"<{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}>", list, " . ");
+				if(item0.Schema_containedInPlace != null)
+				{
+					foreach(var item2 in item0.Schema_containedInPlace)
+					{
+						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://schema.org/containedInPlace", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
+					}
+				}
+				if(item0.Schema_name != null)
+				{
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Country_{ResourceID}_{item0.ArticleID}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(item0.Schema_name)}\"", list, " . ");
+				}
+			}
+			}
+				if(this.IdsSchema_awards != null)
+				{
+					foreach(var item2 in this.IdsSchema_awards)
+					{
+					Regex regex = new Regex(@"\/items\/.+_[0-9A-Fa-f]{8}[-]?(?:[0-9A-Fa-f]{4}[-]?){3}[0-9A-Fa-f]{12}_[0-9A-Fa-f]{8}[-]?(?:[0-9A-Fa-f]{4}[-]?){3}[0-9A-Fa-f]{12}");
+					string itemRegex = item2;
+					if (regex.IsMatch(itemRegex))
+					{
+						itemRegex = $"http://gnoss/{resourceAPI.GetShortGuid(itemRegex).ToString().ToUpper()}";
+					}
+					else
+					{
+						itemRegex = itemRegex.ToLower();
+					}
+						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/awards", $"<{itemRegex}>", list, " . ");
+					}
+				}
 				if(this.IdsTry_authorOf != null)
 				{
 					foreach(var item2 in this.IdsTry_authorOf)
@@ -328,24 +432,9 @@ namespace EscritorleoOntology
 						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://try.gnoss.com/ontology#authorOf", $"<{itemRegex}>", list, " . ");
 					}
 				}
-				if(this.Schema_birthDate != null)
+				if(this.Foaf_birthday != null)
 				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/birthDate",  $"{this.Schema_birthDate.Value.ToString("yyyyMMddHHmmss")}", list, " . ");
-				}
-				if(this.Schema_gender != null)
-				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/gender",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_gender)}\"", list, " . ");
-				}
-				if(this.Schema_image != null)
-				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/image",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_image)}\"", list, " . ");
-				}
-				if(this.Schema_awards != null)
-				{
-					foreach(var item2 in this.Schema_awards)
-					{
-						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/awards", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/birthday",  $"{this.Foaf_birthday.Value.ToString("yyyyMMddHHmmss")}", list, " . ");
 				}
 				if(this.Schema_occupation != null)
 				{
@@ -354,22 +443,30 @@ namespace EscritorleoOntology
 						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/occupation", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
 					}
 				}
-				if(this.Schema_countryOfOrigin != null)
+				if(this.Foaf_name != null)
 				{
-					foreach(var item2 in this.Schema_countryOfOrigin)
-					{
-						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/countryOfOrigin", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
-				}
-				if(this.Schema_name != null)
-				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_name)}\"", list, " . ");
 				}
 				if(this.Schema_movement != null)
 				{
 					foreach(var item2 in this.Schema_movement)
 					{
 						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/movement", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
+					}
+				}
+				if(this.Foaf_gender != null)
+				{
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/gender",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_gender)}\"", list, " . ");
+				}
+				if(this.Foaf_img != null)
+				{
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/img",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_img)}\"", list, " . ");
+				}
+				if(this.Foaf_surname != null)
+				{
+					foreach(var item2 in this.Foaf_surname)
+					{
+						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/surname", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
 					}
 				}
 			if (listaSearch != null && listaSearch.Count > 0)
@@ -399,8 +496,9 @@ namespace EscritorleoOntology
 			{
 				tags = tags.Substring(0, tags.LastIndexOf(','));
 			}
-			string titulo = $"{this.Schema_name.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
-			string tablaDoc = $"'{titulo}', '', '{resourceAPI.GraphsUrl}', '{tags}'";
+			string titulo = $"{this.Foaf_name.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
+			string descripcion = $"{this.Foaf_name.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
+			string tablaDoc = $"'{titulo}', '{descripcion}', '{resourceAPI.GraphsUrl}', '{tags}'";
 			KeyValuePair<Guid, string> valor = new KeyValuePair<Guid, string>(ResourceID, tablaDoc);
 
 			return valor;
@@ -414,9 +512,13 @@ namespace EscritorleoOntology
 
 		internal void AddResourceTitle(ComplexOntologyResource resource)
 		{
-			resource.Title = this.Schema_name;
+			resource.Title = this.Foaf_name;
 		}
 
+		internal void AddResourceDescription(ComplexOntologyResource resource)
+		{
+			resource.Description = this.Foaf_name;
+		}
 
 
 

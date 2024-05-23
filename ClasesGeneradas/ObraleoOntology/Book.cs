@@ -52,8 +52,8 @@ namespace ObraleoOntology
 					}
 				}
 			}
-			this.Schema_datePublished = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/datePublished"));
-			this.Schema_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/name"));
+			this.Dc_title = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://purl.org/dc/elements/1.1/title"));
+			this.Schema_dateCreated = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/dateCreated"));
 			SemanticPropertyModel propSchema_inLanguage = pSemCmsModel.GetPropertyByPath("http://schema.org/inLanguage");
 			this.Schema_inLanguage = new List<string>();
 			if (propSchema_inLanguage != null && propSchema_inLanguage.PropertyValues.Count > 0)
@@ -93,8 +93,8 @@ namespace ObraleoOntology
 					}
 				}
 			}
-			this.Schema_datePublished = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/datePublished"));
-			this.Schema_name = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/name"));
+			this.Dc_title = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://purl.org/dc/elements/1.1/title"));
+			this.Schema_dateCreated = GetDateValuePropertySemCms(pSemCmsModel.GetPropertyByPath("http://schema.org/dateCreated"));
 			SemanticPropertyModel propSchema_inLanguage = pSemCmsModel.GetPropertyByPath("http://schema.org/inLanguage");
 			this.Schema_inLanguage = new List<string>();
 			if (propSchema_inLanguage != null && propSchema_inLanguage.PropertyValues.Count > 0)
@@ -118,13 +118,13 @@ namespace ObraleoOntology
 		public  List<Person> Schema_author { get; set;}
 		public List<string> IdsSchema_author { get; set;}
 
-		[LABEL(LanguageEnum.es,"Fecha de publicacion")]
-		[RDFProperty("http://schema.org/datePublished")]
-		public  DateTime? Schema_datePublished { get; set;}
-
 		[LABEL(LanguageEnum.es,"Titulo")]
-		[RDFProperty("http://schema.org/name")]
-		public  string Schema_name { get; set;}
+		[RDFProperty("http://purl.org/dc/elements/1.1/title")]
+		public  string Dc_title { get; set;}
+
+		[LABEL(LanguageEnum.es,"Fecha de publicacion")]
+		[RDFProperty("http://schema.org/dateCreated")]
+		public  DateTime? Schema_dateCreated { get; set;}
 
 		[LABEL(LanguageEnum.es,"Idioma")]
 		[RDFProperty("http://schema.org/inLanguage")]
@@ -136,10 +136,10 @@ namespace ObraleoOntology
 			base.GetProperties();
 			propList.Add(new ListStringOntologyProperty("schema:genre", this.IdsSchema_genre));
 			propList.Add(new ListStringOntologyProperty("schema:author", this.IdsSchema_author));
-			if (this.Schema_datePublished.HasValue){
-				propList.Add(new DateOntologyProperty("schema:datePublished", this.Schema_datePublished.Value));
+			propList.Add(new StringOntologyProperty("dc:title", this.Dc_title));
+			if (this.Schema_dateCreated.HasValue){
+				propList.Add(new DateOntologyProperty("schema:dateCreated", this.Schema_dateCreated.Value));
 				}
-			propList.Add(new StringOntologyProperty("schema:name", this.Schema_name));
 			propList.Add(new ListStringOntologyProperty("schema:inLanguage", this.Schema_inLanguage));
 		}
 
@@ -179,7 +179,6 @@ namespace ObraleoOntology
 			resource.TextCategories = listaDeCategorias;
 			resource.CategoriesIds = listaIdDeCategorias;
 			AddResourceTitle(resource);
-			AddResourceDescription(resource);
 			AddImages(resource);
 			AddFiles(resource);
 			return resource;
@@ -205,13 +204,13 @@ namespace ObraleoOntology
 						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Book_{ResourceID}_{ArticleID}", "http://schema.org/author", $"<{item2}>", list, " . ");
 					}
 				}
-				if(this.Schema_datePublished != null)
+				if(this.Dc_title != null)
 				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Book_{ResourceID}_{ArticleID}", "http://schema.org/datePublished",  $"\"{this.Schema_datePublished.Value.ToString("yyyyMMddHHmmss")}\"", list, " . ");
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Book_{ResourceID}_{ArticleID}", "http://purl.org/dc/elements/1.1/title",  $"\"{GenerarTextoSinSaltoDeLinea(this.Dc_title)}\"", list, " . ");
 				}
-				if(this.Schema_name != null)
+				if(this.Schema_dateCreated != null)
 				{
-					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Book_{ResourceID}_{ArticleID}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Book_{ResourceID}_{ArticleID}", "http://schema.org/dateCreated",  $"\"{this.Schema_dateCreated.Value.ToString("yyyyMMddHHmmss")}\"", list, " . ");
 				}
 				if(this.Schema_inLanguage != null)
 				{
@@ -235,8 +234,8 @@ namespace ObraleoOntology
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasfechamodificacion", $"{DateTime.Now.ToString("yyyyMMddHHmmss")}", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnumeroVisitas", "0", list, " . ");
 			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasprivacidadCom", "\"publico\"", list, " . ");
-			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/firstName", $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
-			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnombrecompleto", $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/firstName", $"\"{GenerarTextoSinSaltoDeLinea(this.Dc_title)}\"", list, " . ");
+			AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://gnoss/hasnombrecompleto", $"\"{GenerarTextoSinSaltoDeLinea(this.Dc_title)}\"", list, " . ");
 			string search = string.Empty;
 				if(this.IdsSchema_genre != null)
 				{
@@ -272,13 +271,13 @@ namespace ObraleoOntology
 						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/author", $"<{itemRegex}>", list, " . ");
 					}
 				}
-				if(this.Schema_datePublished != null)
+				if(this.Dc_title != null)
 				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/datePublished",  $"{this.Schema_datePublished.Value.ToString("yyyyMMddHHmmss")}", list, " . ");
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://purl.org/dc/elements/1.1/title",  $"\"{GenerarTextoSinSaltoDeLinea(this.Dc_title)}\"", list, " . ");
 				}
-				if(this.Schema_name != null)
+				if(this.Schema_dateCreated != null)
 				{
-					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/name",  $"\"{GenerarTextoSinSaltoDeLinea(this.Schema_name)}\"", list, " . ");
+					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://schema.org/dateCreated",  $"{this.Schema_dateCreated.Value.ToString("yyyyMMddHHmmss")}", list, " . ");
 				}
 				if(this.Schema_inLanguage != null)
 				{
@@ -314,9 +313,8 @@ namespace ObraleoOntology
 			{
 				tags = tags.Substring(0, tags.LastIndexOf(','));
 			}
-			string titulo = $"{this.Schema_name.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
-			string descripcion = $"{this.Schema_name.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
-			string tablaDoc = $"'{titulo}', '{descripcion}', '{resourceAPI.GraphsUrl}', '{tags}'";
+			string titulo = $"{this.Dc_title.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\"", "\"\"").Replace("'", "#COMILLA#").Replace("|", "#PIPE#")}";
+			string tablaDoc = $"'{titulo}', '', '{resourceAPI.GraphsUrl}', '{tags}'";
 			KeyValuePair<Guid, string> valor = new KeyValuePair<Guid, string>(ResourceID, tablaDoc);
 
 			return valor;
@@ -330,13 +328,9 @@ namespace ObraleoOntology
 
 		internal void AddResourceTitle(ComplexOntologyResource resource)
 		{
-			resource.Title = this.Schema_name;
+			resource.Title = this.Dc_title;
 		}
 
-		internal void AddResourceDescription(ComplexOntologyResource resource)
-		{
-			resource.Description = this.Schema_name;
-		}
 
 
 
