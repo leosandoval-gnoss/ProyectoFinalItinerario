@@ -36,7 +36,7 @@ namespace GenreleoOntology
 		public virtual string RdfType { get { return "http://schema.org/Genre"; } }
 		public virtual string RdfsLabel { get { return "http://schema.org/Genre"; } }
 		public string Identificador { get; set; }
-		[LABEL(LanguageEnum.es,"Nombre")]
+		[LABEL(LanguageEnum.es,"Nombre genero")]
 		[RDFProperty("http://schema.org/name")]
 		public  string Schema_name { get; set;}
 

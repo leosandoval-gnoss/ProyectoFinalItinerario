@@ -86,15 +86,6 @@ namespace EscritorleoOntology
 			}
 			this.Foaf_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/gender"));
 			this.Foaf_img = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/img"));
-			SemanticPropertyModel propFoaf_surname = pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/surname");
-			this.Foaf_surname = new List<string>();
-			if (propFoaf_surname != null && propFoaf_surname.PropertyValues.Count > 0)
-			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propFoaf_surname.PropertyValues)
-				{
-					this.Foaf_surname.Add(propValue.Value);
-				}
-			}
 		}
 
 		public Person(SemanticEntityModel pSemCmsModel, LanguageEnum idiomaUsuario) : base()
@@ -159,15 +150,6 @@ namespace EscritorleoOntology
 			}
 			this.Foaf_gender = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/gender"));
 			this.Foaf_img = GetPropertyValueSemCms(pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/img"));
-			SemanticPropertyModel propFoaf_surname = pSemCmsModel.GetPropertyByPath("http://xmlns.com/foaf/0.1/surname");
-			this.Foaf_surname = new List<string>();
-			if (propFoaf_surname != null && propFoaf_surname.PropertyValues.Count > 0)
-			{
-				foreach (SemanticPropertyModel.PropertyValue propValue in propFoaf_surname.PropertyValues)
-				{
-					this.Foaf_surname.Add(propValue.Value);
-				}
-			}
 		}
 
 		public virtual string RdfType { get { return "http://xmlns.com/foaf/0.1/Person"; } }
@@ -210,10 +192,6 @@ namespace EscritorleoOntology
 		[RDFProperty("http://xmlns.com/foaf/0.1/img")]
 		public  string Foaf_img { get; set;}
 
-		[LABEL(LanguageEnum.es,"Apellido")]
-		[RDFProperty("http://xmlns.com/foaf/0.1/surname")]
-		public  List<string> Foaf_surname { get; set;}
-
 
 		internal override void GetProperties()
 		{
@@ -228,7 +206,6 @@ namespace EscritorleoOntology
 			propList.Add(new ListStringOntologyProperty("schema:movement", this.Schema_movement));
 			propList.Add(new StringOntologyProperty("foaf:gender", this.Foaf_gender));
 			propList.Add(new StringOntologyProperty("foaf:img", this.Foaf_img));
-			propList.Add(new ListStringOntologyProperty("foaf:surname", this.Foaf_surname));
 		}
 
 		internal override void GetEntities()
@@ -354,13 +331,6 @@ namespace EscritorleoOntology
 				{
 					AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/img",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_img)}\"", list, " . ");
 				}
-				if(this.Foaf_surname != null)
-				{
-					foreach(var item2 in this.Foaf_surname)
-					{
-						AgregarTripleALista($"{resourceAPI.GraphsUrl}items/Person_{ResourceID}_{ArticleID}", "http://xmlns.com/foaf/0.1/surname", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
-				}
 			return list;
 		}
 
@@ -461,13 +431,6 @@ namespace EscritorleoOntology
 				if(this.Foaf_img != null)
 				{
 					AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/img",  $"\"{GenerarTextoSinSaltoDeLinea(this.Foaf_img)}\"", list, " . ");
-				}
-				if(this.Foaf_surname != null)
-				{
-					foreach(var item2 in this.Foaf_surname)
-					{
-						AgregarTripleALista($"http://gnoss/{ResourceID.ToString().ToUpper()}", "http://xmlns.com/foaf/0.1/surname", $"\"{GenerarTextoSinSaltoDeLinea(item2)}\"", list, " . ");
-					}
 				}
 			if (listaSearch != null && listaSearch.Count > 0)
 			{

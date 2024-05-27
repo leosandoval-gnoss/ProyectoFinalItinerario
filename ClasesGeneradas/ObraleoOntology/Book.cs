@@ -118,7 +118,7 @@ namespace ObraleoOntology
 		public  List<Person> Schema_author { get; set;}
 		public List<string> IdsSchema_author { get; set;}
 
-		[LABEL(LanguageEnum.es,"Titulo")]
+		[LABEL(LanguageEnum.es,"Nombre de la obra")]
 		[RDFProperty("http://purl.org/dc/elements/1.1/title")]
 		public  string Dc_title { get; set;}
 
